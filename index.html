@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Got ya</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  html,body {margin:0;padding:0;background:#111;color:#fff;font-family:Arial,Helvetica,sans-serif}
-  main {min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px}
-  img {max-width:90vw;max-height:70vh;border:2px solid #fff}
-  h1 {margin:16px 0 0 0;font-size:40px;letter-spacing:1px}
-</style>
+  <meta charset="UTF-8">
+  <title>GOT-YA — Firestopping Detail Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Find the right firestopping installation detail fast.">
+  <meta name="theme-color" content="#0f1115">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="GOT-YA">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <img src="IMG_5F2E43C0-7229-40AF-8B7E-32EEA8339BAC.jpeg" alt="Got ya">
-    <h1>Got ya</h1>
-  </main>
+  <header class="topbar">
+    <a class="brand" href="#/search" aria-label="GOT-YA home">
+      <img src="icons/icon.svg" alt="" class="brand-mark" width="28" height="28">
+      <span class="brand-name">GOT-YA</span>
+    </a>
+    <span class="brand-sub">Firestopping detail finder</span>
+  </header>
+
+  <main id="app" class="app"><!-- views render here --></main>
+
+  <nav class="tabbar" aria-label="Primary">
+    <a href="#/search" data-tab="search" class="tab">
+      <span class="tab-ico">🔎</span><span class="tab-label">Search</span>
+    </a>
+    <a href="#/projects" data-tab="projects" class="tab">
+      <span class="tab-ico">📁</span><span class="tab-label">Projects</span>
+    </a>
+    <a href="#/recent" data-tab="recent" class="tab">
+      <span class="tab-ico">🕘</span><span class="tab-label">Recent</span>
+    </a>
+  </nav>
+
+  <script src="app.js"></script>
 </body>
 </html>

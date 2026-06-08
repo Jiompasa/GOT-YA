@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "version": 1,
+    "note": "SAMPLE DATA — every entry below is a placeholder to demonstrate the app. Detail links point at the manufacturers' public landing pages, not the exact PDFs. Replace with real details from the supplied PDFs. Each item is flagged samplePlaceholder:true.",
+    "lastUpdated": "2026-06-08"
+  },
+  "details": [
+    {
+      "id": "QF-001",
+      "manufacturer": "Quelfire",
+      "name": "Single metallic pipe through flexible wall — Intumescent sealant",
+      "product": "QuelStop Acoustic Intumescent Sealant",
+      "substrate": ["Flexible wall"],
+      "penetration": ["Single metallic pipe"],
+      "seal": ["Intumescent sealant"],
+      "batt": ["N/A"],
+      "description": "A single metallic service pipe penetrating a plasterboard / steel stud partition, sealed with intumescent acoustic sealant to both faces. Maintains integrity and insulation for the fire rating of the wall.",
+      "detailUrl": "https://quelfire.co.uk/pages/standard-installation-details",
+      "relatedLinks": [
+        {"label": "Product data sheet", "url": "https://quelfire.co.uk/"},
+        {"label": "Test evidence / classification", "url": "https://quelfire.co.uk/"},
+        {"label": "Service spacing sheet", "url": "https://quelfire.co.uk/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    },
+    {
+      "id": "QF-002",
+      "manufacturer": "Quelfire",
+      "name": "Single plastic pipe through rigid floor — Pipe collar",
+      "product": "QF2 Pipe Collar",
+      "substrate": ["Rigid floor"],
+      "penetration": ["Single plastic pipe"],
+      "seal": ["Pipe collar"],
+      "batt": ["N/A"],
+      "description": "A single plastic (PVC/PP/HDPE) pipe through a concrete floor, closed off on collapse by an intumescent pipe collar fixed to the underside of the slab.",
+      "detailUrl": "https://quelfire.co.uk/pages/standard-installation-details",
+      "relatedLinks": [
+        {"label": "Product data sheet", "url": "https://quelfire.co.uk/"},
+        {"label": "Test evidence / classification", "url": "https://quelfire.co.uk/"},
+        {"label": "Pipe compatibility chart", "url": "https://quelfire.co.uk/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    },
+    {
+      "id": "QF-003",
+      "manufacturer": "Quelfire",
+      "name": "Multiple mixed services through rigid wall — Coated batt",
+      "product": "Quelfire Coated Batt + QuelStop Sealant",
+      "substrate": ["Rigid wall"],
+      "penetration": ["Multiple pipes / mixed services"],
+      "seal": ["Coated batt"],
+      "batt": ["Ablative coated batt"],
+      "description": "A mixed penetration of pipes and cables through a masonry / concrete wall, sealed with ablative coated batt and intumescent sealant around individual services.",
+      "detailUrl": "https://quelfire.co.uk/pages/standard-installation-details",
+      "relatedLinks": [
+        {"label": "Batt installation guide", "url": "https://quelfire.co.uk/"},
+        {"label": "Test evidence / classification", "url": "https://quelfire.co.uk/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    },
+    {
+      "id": "QF-004",
+      "manufacturer": "Quelfire",
+      "name": "Cables & cable tray through flexible wall — Coated batt",
+      "product": "Quelfire Coated Batt",
+      "substrate": ["Flexible wall"],
+      "penetration": ["Cables & cable tray"],
+      "seal": ["Coated batt"],
+      "batt": ["Ablative coated batt"],
+      "description": "Cable bundles on tray passing through a plasterboard partition, sealed with ablative coated batt with ablative coating dressed around cables.",
+      "detailUrl": "https://quelfire.co.uk/pages/standard-installation-details",
+      "relatedLinks": [
+        {"label": "Batt installation guide", "url": "https://quelfire.co.uk/"},
+        {"label": "Test evidence / classification", "url": "https://quelfire.co.uk/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    },
+    {
+      "id": "QF-005",
+      "manufacturer": "Quelfire",
+      "name": "Head-of-wall linear joint — FR sealant",
+      "product": "QuelStop FR Acoustic Sealant",
+      "substrate": ["Flexible wall"],
+      "penetration": ["Linear joint / gap"],
+      "seal": ["Acoustic/FR sealant"],
+      "batt": ["N/A"],
+      "description": "Linear movement joint at the head of a partition where it meets the soffit, sealed with FR acoustic sealant over backing.",
+      "detailUrl": "https://quelfire.co.uk/pages/standard-installation-details",
+      "relatedLinks": [
+        {"label": "Product data sheet", "url": "https://quelfire.co.uk/"},
+        {"label": "Movement / joint test data", "url": "https://quelfire.co.uk/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    },
+    {
+      "id": "RW-001",
+      "manufacturer": "Rockwool",
+      "name": "Single metallic pipe through rigid wall — Mortar",
+      "product": "FirePro Mortar",
+      "substrate": ["Rigid wall"],
+      "penetration": ["Single metallic pipe"],
+      "seal": ["Mortar / compound"],
+      "batt": ["N/A"],
+      "description": "A single metallic pipe through a masonry / concrete wall, sealed with FirePro firestop mortar packed around the service.",
+      "detailUrl": "https://www.rockwool.com/uk/products-and-applications/firestop-solutions/",
+      "relatedLinks": [
+        {"label": "Product data sheet", "url": "https://www.rockwool.com/uk/"},
+        {"label": "Test evidence / classification", "url": "https://www.rockwool.com/uk/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    },
+    {
+      "id": "RW-002",
+      "manufacturer": "Rockwool",
+      "name": "Multiple services through rigid floor — Ablative coated batt",
+      "product": "Ablative Coated Batt (ACB)",
+      "substrate": ["Rigid floor"],
+      "penetration": ["Multiple pipes / mixed services"],
+      "seal": ["Coated batt"],
+      "batt": ["Ablative coated batt"],
+      "description": "Mixed services through a concrete floor opening, sealed with Rockwool Ablative Coated Batt with ablative coating dressed to all services and edges.",
+      "detailUrl": "https://www.rockwool.com/uk/products-and-applications/firestop-solutions/",
+      "relatedLinks": [
+        {"label": "ACB installation guide", "url": "https://www.rockwool.com/uk/"},
+        {"label": "Test evidence / classification", "url": "https://www.rockwool.com/uk/"},
+        {"label": "Service spacing sheet", "url": "https://www.rockwool.com/uk/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    },
+    {
+      "id": "RW-003",
+      "manufacturer": "Rockwool",
+      "name": "Single plastic pipe through flexible wall — Pipe collar",
+      "product": "FirePro Pipe Collar",
+      "substrate": ["Flexible wall"],
+      "penetration": ["Single plastic pipe"],
+      "seal": ["Pipe collar"],
+      "batt": ["N/A"],
+      "description": "A plastic pipe through a plasterboard partition, closed on collapse by an intumescent pipe collar fixed each face.",
+      "detailUrl": "https://www.rockwool.com/uk/products-and-applications/firestop-solutions/",
+      "relatedLinks": [
+        {"label": "Product data sheet", "url": "https://www.rockwool.com/uk/"},
+        {"label": "Pipe compatibility chart", "url": "https://www.rockwool.com/uk/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    },
+    {
+      "id": "RW-004",
+      "manufacturer": "Rockwool",
+      "name": "Cables through rigid wall — Coated batt",
+      "product": "Ablative Coated Batt (ACB)",
+      "substrate": ["Rigid wall"],
+      "penetration": ["Cables & cable tray"],
+      "seal": ["Coated batt"],
+      "batt": ["Ablative coated batt"],
+      "description": "Cable penetration through a masonry wall, sealed with Ablative Coated Batt and coating dressed around cable bundles.",
+      "detailUrl": "https://www.rockwool.com/uk/products-and-applications/firestop-solutions/",
+      "relatedLinks": [
+        {"label": "ACB installation guide", "url": "https://www.rockwool.com/uk/"},
+        {"label": "Test evidence / classification", "url": "https://www.rockwool.com/uk/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    },
+    {
+      "id": "RW-005",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal through rigid floor — Coated batt",
+      "product": "Ablative Coated Batt (ACB)",
+      "substrate": ["Rigid floor"],
+      "penetration": ["Blank seal (no penetration)"],
+      "seal": ["Coated batt"],
+      "batt": ["Ablative coated batt"],
+      "description": "A blank (unpenetrated) opening in a concrete floor sealed with Ablative Coated Batt as a future-service provision.",
+      "detailUrl": "https://www.rockwool.com/uk/products-and-applications/firestop-solutions/",
+      "relatedLinks": [
+        {"label": "ACB installation guide", "url": "https://www.rockwool.com/uk/"},
+        {"label": "Test evidence / classification", "url": "https://www.rockwool.com/uk/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    },
+    {
+      "id": "NF-001",
+      "manufacturer": "Nullifire",
+      "name": "Single metallic pipe through flexible wall — Acoustic sealant",
+      "product": "FS702 Intumescent Acoustic Sealant",
+      "substrate": ["Flexible wall"],
+      "penetration": ["Single metallic pipe"],
+      "seal": ["Intumescent sealant"],
+      "batt": ["N/A"],
+      "description": "A single metallic pipe through a plasterboard partition sealed with FS702 intumescent acoustic sealant to both faces.",
+      "detailUrl": "https://www.nullifire.com/en-gb/",
+      "relatedLinks": [
+        {"label": "Product data sheet", "url": "https://www.nullifire.com/en-gb/"},
+        {"label": "Test evidence / classification", "url": "https://www.nullifire.com/en-gb/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    },
+    {
+      "id": "NF-002",
+      "manufacturer": "Nullifire",
+      "name": "Multiple mixed services through rigid wall — Coated batt",
+      "product": "FB750 Coated Batt",
+      "substrate": ["Rigid wall"],
+      "penetration": ["Multiple pipes / mixed services"],
+      "seal": ["Coated batt"],
+      "batt": ["Ablative coated batt"],
+      "description": "Mixed services through a masonry wall sealed with FB750 coated batt and intumescent sealant around individual penetrants.",
+      "detailUrl": "https://www.nullifire.com/en-gb/",
+      "relatedLinks": [
+        {"label": "Batt installation guide", "url": "https://www.nullifire.com/en-gb/"},
+        {"label": "Test evidence / classification", "url": "https://www.nullifire.com/en-gb/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    },
+    {
+      "id": "NF-003",
+      "manufacturer": "Nullifire",
+      "name": "Single plastic pipe through rigid floor — Pipe collar",
+      "product": "FP200 Pipe Collar",
+      "substrate": ["Rigid floor"],
+      "penetration": ["Single plastic pipe"],
+      "seal": ["Pipe collar"],
+      "batt": ["N/A"],
+      "description": "A plastic pipe through a concrete floor closed off on collapse by an FP200 intumescent pipe collar under the slab.",
+      "detailUrl": "https://www.nullifire.com/en-gb/",
+      "relatedLinks": [
+        {"label": "Product data sheet", "url": "https://www.nullifire.com/en-gb/"},
+        {"label": "Pipe compatibility chart", "url": "https://www.nullifire.com/en-gb/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    },
+    {
+      "id": "NF-004",
+      "manufacturer": "Nullifire",
+      "name": "Services through rigid floor — Mortar",
+      "product": "FS709 Firestop Mortar",
+      "substrate": ["Rigid floor"],
+      "penetration": ["Multiple pipes / mixed services"],
+      "seal": ["Mortar / compound"],
+      "batt": ["N/A"],
+      "description": "Services through a concrete floor opening sealed with FS709 firestop mortar cast around the penetrants.",
+      "detailUrl": "https://www.nullifire.com/en-gb/",
+      "relatedLinks": [
+        {"label": "Product data sheet", "url": "https://www.nullifire.com/en-gb/"},
+        {"label": "Test evidence / classification", "url": "https://www.nullifire.com/en-gb/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    },
+    {
+      "id": "NF-005",
+      "manufacturer": "Nullifire",
+      "name": "Linear gap / joint — Acoustic sealant",
+      "product": "FS702 Intumescent Acoustic Sealant",
+      "substrate": ["Rigid wall"],
+      "penetration": ["Linear joint / gap"],
+      "seal": ["Acoustic/FR sealant"],
+      "batt": ["N/A"],
+      "description": "A linear gap between wall and structure sealed with FS702 intumescent acoustic sealant over backing material.",
+      "detailUrl": "https://www.nullifire.com/en-gb/",
+      "relatedLinks": [
+        {"label": "Product data sheet", "url": "https://www.nullifire.com/en-gb/"},
+        {"label": "Movement / joint test data", "url": "https://www.nullifire.com/en-gb/"}
+      ],
+      "linkStatus": "unverified",
+      "lastChecked": null,
+      "samplePlaceholder": true
+    }
+  ]
+}

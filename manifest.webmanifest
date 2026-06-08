@@ -1,0 +1,19 @@
+{
+  "name": "GOT-YA — Firestopping Detail Finder",
+  "short_name": "GOT-YA",
+  "description": "Find the right passive fire protection (firestopping) installation detail fast. Filter by substrate, penetration, seal, batt type and manufacturer.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f1115",
+  "theme_color": "#0f1115",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
