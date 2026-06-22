@@ -124,12 +124,15 @@ function searchView() {
     ? results.map(cardHtml).join('')
     : `<div class="empty">No details match those filters yet.<br>Try removing one.</div>`;
 
+  const liveQF = state.details.filter((d) => d.manufacturer === 'Quelfire' && !d.samplePlaceholder).length;
+  const samples = state.details.filter((d) => d.samplePlaceholder).length;
+
   app.innerHTML = `
     <div class="view-head">
       <h1>Find a detail</h1>
       <p>Pick any combination below — it narrows as you go.</p>
     </div>
-    <div class="sample-banner">⚠️ Showing <strong>sample data</strong> to demo the app. Real Quelfire / Rockwool / Nullifire details load once the PDFs are added.</div>
+    <div class="sample-banner">✅ <strong>${liveQF} live Quelfire details</strong> with real links. ⚠️ Rockwool &amp; Nullifire are still <strong>${samples} sample placeholders</strong> — coming next.</div>
     <div class="filterbar">
       <span class="result-count"><strong>${results.length}</strong> of ${total} details</span>
       ${active ? `<button class="clear-btn" data-action="clear">Clear filters (${active})</button>` : ''}
