@@ -181,7 +181,7 @@ function detailView(id) {
       <div class="product" style="color:var(--muted);font-size:13px;margin-bottom:10px;">${escapeHtml(d.product || '')}</div>
       <p class="detail-desc">${escapeHtml(d.description || '')}</p>
       <div class="kv">${kv}</div>
-      <a class="btn btn-primary" href="${escapeHtml(d.detailUrl)}" target="_blank" rel="noopener noreferrer">📄 Open detail (manufacturer)</a>
+      <a class="btn btn-primary" href="${escapeHtml(d.detailUrl)}" target="_blank" rel="noopener noreferrer">📄 Open detail drawing</a>
       <button class="btn btn-secondary" data-action="add-to-project" data-id="${escapeHtml(d.id)}">＋ Add to a project</button>
       ${sampleNote}
       ${links ? `<div class="section-label">Related documents</div><ul class="link-list">${links}</ul>` : ''}

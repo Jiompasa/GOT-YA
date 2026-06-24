@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 5,
-    "note": "Quelfire (783), Rockwool and Nullifire are all REAL details. Quelfire & Rockwool deep-link to individual detail PDFs; Nullifire links to its download centre (no per-detail public links).",
+    "note": "Quelfire (783) & Rockwool (89) deep-link to individual detail PDFs. Nullifire (12) links to the official Nullifinder selector + download centre (Nullifire does not publish per-detail links).",
     "lastUpdated": "2026-06-16"
   },
   "details": [
@@ -26450,14 +26450,18 @@
         "Ablative coated batt"
       ],
       "description": "Openings within blockwork/concrete wall construction.. Penetration through conceret / blockwork wall construction. Nullifire standard detail (PS-001); products: FB750 Intubatt & FS702 Intumastic.",
-      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/",
       "relatedLinks": [
         {
-          "label": "Nullifire download centre (all details)",
+          "label": "Nullifinder — official detail selector",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
           "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
         }
       ],
-      "linkStatus": "extracted",
+      "linkStatus": "selector",
       "lastChecked": null,
       "samplePlaceholder": false
     },
@@ -26479,14 +26483,18 @@
         "Ablative coated batt"
       ],
       "description": "Openings within Dry Lined Wall Construction.. Penetration through dry-lined wall construction. Nullifire standard detail (PS-002); products: FB750 Intubatt & FS702 Intumastic.",
-      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/",
       "relatedLinks": [
         {
-          "label": "Nullifire download centre (all details)",
+          "label": "Nullifinder — official detail selector",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
           "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
         }
       ],
-      "linkStatus": "extracted",
+      "linkStatus": "selector",
       "lastChecked": null,
       "samplePlaceholder": false
     },
@@ -26509,14 +26517,18 @@
         "Ablative coated batt"
       ],
       "description": "Openings within concrete floor construction FB750 Intubatt. Penetration through concrete / blockwork wall construction. Nullifire standard detail (PS-003); products: FB750 Intubatt & FS702 Intumastic.",
-      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/",
       "relatedLinks": [
         {
-          "label": "Nullifire download centre (all details)",
+          "label": "Nullifinder — official detail selector",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
           "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
         }
       ],
-      "linkStatus": "extracted",
+      "linkStatus": "selector",
       "lastChecked": null,
       "samplePlaceholder": false
     },
@@ -26539,14 +26551,18 @@
         "N/A"
       ],
       "description": "Openings within concrete floor construction. Loadbearing blank seal to concrete floor up to 2.5kN/m2 and wall. Nullifire standard detail (PS-004); products: FR230 Intucompound and FI140 Shutter Slab.",
-      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/",
       "relatedLinks": [
         {
-          "label": "Nullifire download centre (all details)",
+          "label": "Nullifinder — official detail selector",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
           "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
         }
       ],
-      "linkStatus": "extracted",
+      "linkStatus": "selector",
       "lastChecked": null,
       "samplePlaceholder": false
     },
@@ -26569,14 +26585,18 @@
         "N/A"
       ],
       "description": "Linear seal to various wall and floor constructions.. Linear seals to construction interfaces. Nullifire standard detail (PS-006); products: FS702 Intumastic and FS703 Silicone.",
-      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/",
       "relatedLinks": [
         {
-          "label": "Nullifire download centre (all details)",
+          "label": "Nullifinder — official detail selector",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
           "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
         }
       ],
-      "linkStatus": "extracted",
+      "linkStatus": "selector",
       "lastChecked": null,
       "samplePlaceholder": false
     },
@@ -26599,14 +26619,18 @@
         "N/A"
       ],
       "description": "FP302 Intustrap to Combustible Penetration Wall & Floor. Combustible penetrations passing through varying substrates in various orientations. Nullifire standard detail (PS-007); products: FP302 Intustrap- to be read in conjunction with details PS-001 to PS-004.",
-      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/",
       "relatedLinks": [
         {
-          "label": "Nullifire download centre (all details)",
+          "label": "Nullifinder — official detail selector",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
           "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
         }
       ],
-      "linkStatus": "extracted",
+      "linkStatus": "selector",
       "lastChecked": null,
       "samplePlaceholder": false
     },
@@ -26628,14 +26652,18 @@
         "N/A"
       ],
       "description": "FP302 Intustrap to Insulated Non- Combsutible Penetration.. Insulated non-combsutible penetrations passing through varying substrates in various orientations. Nullifire standard detail (PS-007); products: FP302 Intustrap- to be read in conjunction with details PS-001 to PS-004.",
-      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/",
       "relatedLinks": [
         {
-          "label": "Nullifire download centre (all details)",
+          "label": "Nullifinder — official detail selector",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
           "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
         }
       ],
-      "linkStatus": "extracted",
+      "linkStatus": "selector",
       "lastChecked": null,
       "samplePlaceholder": false
     },
@@ -26657,14 +26685,18 @@
         "N/A"
       ],
       "description": "FS709 Intumastic HP to various penetrations within plasterboard. Annular Penetration Seals. Nullifire standard detail (PS-008); products: FS709 Intumastic HP.",
-      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/",
       "relatedLinks": [
         {
-          "label": "Nullifire download centre (all details)",
+          "label": "Nullifinder — official detail selector",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
           "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
         }
       ],
-      "linkStatus": "extracted",
+      "linkStatus": "selector",
       "lastChecked": null,
       "samplePlaceholder": false
     },
@@ -26686,14 +26718,18 @@
         "N/A"
       ],
       "description": "FS709 Intumastic HP to various penetrations within masonry. Annular Penetration Seals. Nullifire standard detail (PS-008); products: FS709 Intumastic HP.",
-      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/",
       "relatedLinks": [
         {
-          "label": "Nullifire download centre (all details)",
+          "label": "Nullifinder — official detail selector",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
           "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
         }
       ],
-      "linkStatus": "extracted",
+      "linkStatus": "selector",
       "lastChecked": null,
       "samplePlaceholder": false
     },
@@ -26715,14 +26751,18 @@
         "Ablative coated batt"
       ],
       "description": "FS709 Intumastic HP to various penetrations within floor. Annular Penetration Seals. Nullifire standard detail (PS-008); products: FS709 Intumastic HP , FB760 Intubatt and FS702 Intumastic.",
-      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/",
       "relatedLinks": [
         {
-          "label": "Nullifire download centre (all details)",
+          "label": "Nullifinder — official detail selector",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
           "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
         }
       ],
-      "linkStatus": "extracted",
+      "linkStatus": "selector",
       "lastChecked": null,
       "samplePlaceholder": false
     },
@@ -26744,14 +26784,18 @@
         "Ablative coated batt"
       ],
       "description": "FB770 IntudeckTimber Floor Upgrade Installation Detail. Nullifire standard detail (PS-014); products: Timber Floor Upgrade Between Joists.",
-      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/",
       "relatedLinks": [
         {
-          "label": "Nullifire download centre (all details)",
+          "label": "Nullifinder — official detail selector",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
           "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
         }
       ],
-      "linkStatus": "extracted",
+      "linkStatus": "selector",
       "lastChecked": null,
       "samplePlaceholder": false
     },
@@ -26773,14 +26817,18 @@
         "Ablative coated batt"
       ],
       "description": "Banks of insulated plastic pipes in dry lined wall construction. Banks of insulated combustible pipes through 90 minute dry lined wall construction. 100mm overall thickness. Nullifire standard detail (PS-010); products: FB750 Intubatt, FP302 Intustrap & FS702 Intumastic.",
-      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/",
       "relatedLinks": [
         {
-          "label": "Nullifire download centre (all details)",
+          "label": "Nullifinder — official detail selector",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
           "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
         }
       ],
-      "linkStatus": "extracted",
+      "linkStatus": "selector",
       "lastChecked": null,
       "samplePlaceholder": false
     }
