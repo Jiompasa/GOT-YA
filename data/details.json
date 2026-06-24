@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": 3,
-    "note": "Quelfire = REAL details extracted from the official QuelSelector library (live deep links to Quelfire standard installation detail PDFs). Rockwool and Nullifire = SAMPLE placeholders pending their detail libraries.",
+    "version": 5,
+    "note": "Quelfire (783), Rockwool and Nullifire are all REAL details. Quelfire & Rockwool deep-link to individual detail PDFs; Nullifire links to its download centre (no per-detail public links).",
     "lastUpdated": "2026-06-16"
   },
   "details": [
@@ -23852,48 +23852,15 @@
       "samplePlaceholder": false
     },
     {
-      "id": "RW-001",
+      "id": "RW-RWFP-SSFW-PA-SB-CAB-0106-to-0110",
       "manufacturer": "Rockwool",
-      "name": "Single metallic pipe through rigid wall — Mortar",
-      "product": "FirePro Mortar",
+      "name": "Cables & cable tray — single-skin flexible wall, penetration aperture (single batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
       "substrate": [
-        "Rigid wall"
+        "Flexible wall"
       ],
       "penetration": [
-        "Single metallic pipe"
-      ],
-      "seal": [
-        "Mortar / compound"
-      ],
-      "batt": [
-        "N/A"
-      ],
-      "description": "A single metallic pipe through a masonry / concrete wall, sealed with FirePro firestop mortar packed around the service.",
-      "detailUrl": "https://www.rockwool.com/uk/products-and-applications/firestop-solutions/",
-      "relatedLinks": [
-        {
-          "label": "Product data sheet",
-          "url": "https://www.rockwool.com/uk/"
-        },
-        {
-          "label": "Test evidence / classification",
-          "url": "https://www.rockwool.com/uk/"
-        }
-      ],
-      "linkStatus": "unverified",
-      "lastChecked": null,
-      "samplePlaceholder": true
-    },
-    {
-      "id": "RW-002",
-      "manufacturer": "Rockwool",
-      "name": "Multiple services through rigid floor — Ablative coated batt",
-      "product": "Ablative Coated Batt (ACB)",
-      "substrate": [
-        "Rigid floor"
-      ],
-      "penetration": [
-        "Multiple pipes / mixed services"
+        "Cables & cable tray"
       ],
       "seal": [
         "Coated batt"
@@ -23901,64 +23868,1705 @@
       "batt": [
         "Ablative coated batt"
       ],
-      "description": "Mixed services through a concrete floor opening, sealed with Rockwool Ablative Coated Batt with ablative coating dressed to all services and edges.",
-      "detailUrl": "https://www.rockwool.com/uk/products-and-applications/firestop-solutions/",
+      "description": "Cables & cable tray in a single-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-PA-SB-CAB-0106 to 0110).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=-1OG8TMGuZ-LuihtCcW1RQ",
       "relatedLinks": [
         {
-          "label": "ACB installation guide",
-          "url": "https://www.rockwool.com/uk/"
-        },
-        {
-          "label": "Test evidence / classification",
-          "url": "https://www.rockwool.com/uk/"
-        },
-        {
-          "label": "Service spacing sheet",
-          "url": "https://www.rockwool.com/uk/"
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
         }
       ],
-      "linkStatus": "unverified",
+      "linkStatus": "extracted",
       "lastChecked": null,
-      "samplePlaceholder": true
+      "samplePlaceholder": false
     },
     {
-      "id": "RW-003",
+      "id": "RW-RWFP-SSFW-PA-DB-CAB-0121",
       "manufacturer": "Rockwool",
-      "name": "Single plastic pipe through flexible wall — Pipe collar",
-      "product": "FirePro Pipe Collar",
+      "name": "Cables & cable tray — single-skin flexible wall, penetration aperture (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
       "substrate": [
         "Flexible wall"
       ],
       "penetration": [
-        "Single plastic pipe"
+        "Cables & cable tray"
       ],
       "seal": [
-        "Pipe collar"
+        "Coated batt"
       ],
       "batt": [
-        "N/A"
+        "Ablative coated batt"
       ],
-      "description": "A plastic pipe through a plasterboard partition, closed on collapse by an intumescent pipe collar fixed each face.",
-      "detailUrl": "https://www.rockwool.com/uk/products-and-applications/firestop-solutions/",
+      "description": "Cables & cable tray in a single-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-PA-DB-CAB-0121).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=aPJ4Z591KL4O2CRKynYrUw",
       "relatedLinks": [
         {
-          "label": "Product data sheet",
-          "url": "https://www.rockwool.com/uk/"
-        },
-        {
-          "label": "Pipe compatibility chart",
-          "url": "https://www.rockwool.com/uk/"
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
         }
       ],
-      "linkStatus": "unverified",
+      "linkStatus": "extracted",
       "lastChecked": null,
-      "samplePlaceholder": true
+      "samplePlaceholder": false
     },
     {
-      "id": "RW-004",
+      "id": "RW-RWFP-SSFW-PA-P-CAB-0140-to-0142",
       "manufacturer": "Rockwool",
-      "name": "Cables through rigid wall — Coated batt",
-      "product": "Ablative Coated Batt (ACB)",
+      "name": "Cables & cable tray — single-skin flexible wall, penetration aperture (pipe closure)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cables & cable tray in a single-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-PA-P-CAB-0140 to 0142).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=8Vw77bdgIGpZUa26M6LZog",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-PA-SB-NCP-0111-to-0112",
+      "manufacturer": "Rockwool",
+      "name": "Metal pipe — single-skin flexible wall, penetration aperture (single batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Metal pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Metal pipe in a single-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-PA-SB-NCP-0111 to 0112).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=tWfD5KZKMuMrXPwKOAvQWw",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-PA-SB-CPP-0113-to-0115",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — single-skin flexible wall, penetration aperture (single batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a single-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-PA-SB-CPP-0113 to 0115).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=l58L3H3FQkEy5CdkzN6asg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-PA-DB-CPP-0132",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — single-skin flexible wall, penetration aperture (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a single-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-PA-DB-CPP-0132).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=ftDIbKwh4O5KX-2rAVr5EQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-PA-P-CPP-0144-to-0145",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — single-skin flexible wall, penetration aperture (pipe closure)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a single-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-PA-P-CPP-0144 to 0145).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=B8HEHfMNTm99zTiphiyZ_w",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-PA-SB-MLC-0116-to-0118",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe (multi-layer composite) — single-skin flexible wall, penetration aperture (single batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe (multi-layer composite)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe (multi-layer composite) in a single-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-PA-SB-MLC-0116 to 0118).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=LnuwV_vhNTvrR22wTof0-Q",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-CP-DP-CAB-0400",
+      "manufacturer": "Rockwool",
+      "name": "Cables & cable tray — single-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cables & cable tray in a single-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-CP-DP-CAB-0400).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=MJZjZPvxH7BYhKGNwX28Og",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-CP-DP-NCP-0300",
+      "manufacturer": "Rockwool",
+      "name": "Metal pipe — single-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Metal pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Metal pipe in a single-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-CP-DP-NCP-0300).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=tPGKRjz_VnxEU4blxkj4BQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-CP-DP-NCP-0403",
+      "manufacturer": "Rockwool",
+      "name": "Metal pipe — single-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Metal pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Metal pipe in a single-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-CP-DP-NCP-0403).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=wPULFrBbOkXpQNPbzMVu0Q",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-CP-DP-CPP-0405",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — single-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a single-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-CP-DP-CPP-0405).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=pRhmdlol4QDqNqiWEbxjWg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-CP-DP-CPP-0450",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — single-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a single-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-CP-DP-CPP-0450).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=jq-EBDtNFtsQYRvH4AP3LA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-CP-DP-CPP-0500",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — single-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a single-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-CP-DP-CPP-0500).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=Xmqv482fS9Ht2_KignXFkA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-CP-DP-MLC-0411",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe (multi-layer composite) — single-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe (multi-layer composite)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe (multi-layer composite) in a single-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-CP-DP-MLC-0411).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=drHaIj8RG8GxfHk2ekRWxg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-CP-DP-MLC-0455",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe (multi-layer composite) — single-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe (multi-layer composite)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe (multi-layer composite) in a single-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-CP-DP-MLC-0455).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=I5HgTAh0N3VIHE6EcS9eYQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-CP-DP-MLC-0504",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe (multi-layer composite) — single-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe (multi-layer composite)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe (multi-layer composite) in a single-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-CP-DP-MLC-0504).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=ufq_m98cVs_NOK8t-qfX0A",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-CP-DP-CPP-0412",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — single-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a single-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-CP-DP-CPP-0412).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=aukEhqXwjm4fnmFETZQvog",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-BS-SB-0100",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — single-skin flexible wall, blank seal / head of wall (single batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Blank seal (no penetration) in a single-skin flexible wall, blank seal / head of wall, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-BS-SB-0100).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=ixRrkRV65zDRj11DpdU30g",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-BS-DB-0101",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — single-skin flexible wall, blank seal / head of wall (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Blank seal (no penetration) in a single-skin flexible wall, blank seal / head of wall, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-BS-DB-0101).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=qQ-FayYzREx4MF0PJoCxQA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-BS-P-0102-to-0103",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — single-skin flexible wall, blank seal / head of wall (pipe closure)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Blank seal (no penetration) in a single-skin flexible wall, blank seal / head of wall, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-BS-P-0102 to 0103).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=R5T1srf_81XaDtgIRI7Rag",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-BS-P-0105",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — single-skin flexible wall, blank seal / head of wall (pipe closure)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Blank seal (no penetration) in a single-skin flexible wall, blank seal / head of wall, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-BS-P-0105).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=emSO31G86l1MjjAcNAzAMw",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-BS-DB-0119",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — single-skin flexible wall, blank seal / head of wall (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Blank seal (no penetration) in a single-skin flexible wall, blank seal / head of wall, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-BS-DB-0119).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=h7iH40WBPWldd2V6GpxGaA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-SSFW-BS-P-0104",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — single-skin flexible wall, blank seal / head of wall (pipe closure)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Blank seal (no penetration) in a single-skin flexible wall, blank seal / head of wall, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-SSFW-BS-P-0104).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=WWMN_HRR-sOpvXsc0nQPLA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-SB-CAB-0149-to-0151",
+      "manufacturer": "Rockwool",
+      "name": "Cables & cable tray — double-skin flexible wall, penetration aperture (single batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cables & cable tray in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-SB-CAB-0149 to 0151).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=K456HT3xgsZNZYY9-5Rd3Q",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-DB-CAB-0164-to-0166",
+      "manufacturer": "Rockwool",
+      "name": "Cables & cable tray — double-skin flexible wall, penetration aperture (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cables & cable tray in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-DB-CAB-0164 to 0166).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=QS79P7WngfIA4dM8tL_1dw",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-DB-CAB-0196",
+      "manufacturer": "Rockwool",
+      "name": "Cables & cable tray — double-skin flexible wall, penetration aperture (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cables & cable tray in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-DB-CAB-0196).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=nCgwJB_O9y3nNuQw35zBIQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-P-CAB-0185-to-0186",
+      "manufacturer": "Rockwool",
+      "name": "Cables & cable tray — double-skin flexible wall, penetration aperture (pipe closure)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cables & cable tray in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-P-CAB-0185 to 0186).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=Gm3977Vj3zrXeGtSih4MrQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-SB-NCP-0152-to-0153",
+      "manufacturer": "Rockwool",
+      "name": "Metal pipe — double-skin flexible wall, penetration aperture (single batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Metal pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Metal pipe in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-SB-NCP-0152 to 0153).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=qIYB_rjxfwgSXKpXTXZTmQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-DB-NCP-0167-to-0169",
+      "manufacturer": "Rockwool",
+      "name": "Metal pipe — double-skin flexible wall, penetration aperture (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Metal pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Metal pipe in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-DB-NCP-0167 to 0169).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=kayf0v3kmsN1kNrgYb8yzQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-P-NCP-0187-to-0188",
+      "manufacturer": "Rockwool",
+      "name": "Metal pipe — double-skin flexible wall, penetration aperture (pipe closure)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Metal pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Metal pipe in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-P-NCP-0187 to 0188).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=Fm7_U1IBRrYtUAX3xeDSZA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-SB-CPP-0154-to-0156",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — double-skin flexible wall, penetration aperture (single batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-SB-CPP-0154 to 0156).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=qd4nU_o94TJHQ-1vcvrbSA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-DB-CPP-0170-to-0175",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — double-skin flexible wall, penetration aperture (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-DB-CPP-0170 to 0175).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=TnOgEPTx7_PcmKjEowBntQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-DB-CPP-0197-to-0198",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — double-skin flexible wall, penetration aperture (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-DB-CPP-0197 to 0198).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=mPJHkbB2YIPn1WvkIWXFww",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-P-CPP-0189-to-0192",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — double-skin flexible wall, penetration aperture (pipe closure)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-P-CPP-0189 to 0192).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=3-pAS0fFtFZrKQDbAFZBrw",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-SB-MLC-0157-to-0159",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe (multi-layer composite) — double-skin flexible wall, penetration aperture (single batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe (multi-layer composite)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe (multi-layer composite) in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-SB-MLC-0157 to 0159).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=6M6tMM4lwwe-oWAOg3CquQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-DB-MLC-0176-to-0178",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe (multi-layer composite) — double-skin flexible wall, penetration aperture (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe (multi-layer composite)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe (multi-layer composite) in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-DB-MLC-0176 to 0178).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=gre28Lbsrl0qdCY3EoXhYA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-P-MLC-0193-to-0194",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe (multi-layer composite) — double-skin flexible wall, penetration aperture (pipe closure)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe (multi-layer composite)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe (multi-layer composite) in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-P-MLC-0193 to 0194).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=FSqTYq4Rh225z4ZG4jFeIw",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-DB-TRC-0179",
+      "manufacturer": "Rockwool",
+      "name": "Various / see drawing — double-skin flexible wall, penetration aperture (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Various / see drawing"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Various / see drawing in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-DB-TRC-0179).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=l3e8hHXVV2bJKCZXOrdp0Q",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-DB-TR-0203-to-0204",
+      "manufacturer": "Rockwool",
+      "name": "Various / see drawing — double-skin flexible wall, penetration aperture (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Various / see drawing"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Various / see drawing in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-DB-TR-0203 to 0204).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=fxZSLtYSlDMPtC1sYn97jA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-PA-P-TR-0205-to-0206",
+      "manufacturer": "Rockwool",
+      "name": "Various / see drawing — double-skin flexible wall, penetration aperture (pipe closure)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Various / see drawing"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Various / see drawing in a double-skin flexible wall, penetration aperture, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-PA-P-TR-0205 to 0206).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=NLRIIH44XXfEHnMIM81WIg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-CP-DP-CAB-0302",
+      "manufacturer": "Rockwool",
+      "name": "Cables & cable tray — double-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cables & cable tray in a double-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-CP-DP-CAB-0302).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=glEiyx0jRvkxbdMsmAcEZg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-CP-DP-CAB-0401",
+      "manufacturer": "Rockwool",
+      "name": "Cables & cable tray — double-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cables & cable tray in a double-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-CP-DP-CAB-0401).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=j2DjhiWq_SNt1U__G6-aEA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-CP-DP-NCP-0301",
+      "manufacturer": "Rockwool",
+      "name": "Metal pipe — double-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Metal pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Metal pipe in a double-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-CP-DP-NCP-0301).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=WP3tYUAZDMHn7xr7obSmlA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-CP-DP-NCP-0404",
+      "manufacturer": "Rockwool",
+      "name": "Metal pipe — double-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Metal pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Metal pipe in a double-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-CP-DP-NCP-0404).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=h_IgQxZ-IUPQvJSWCSInNw",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-CP-DP-CPP-0406",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — double-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a double-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-CP-DP-CPP-0406).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=9WOxFgNvHql3b1u2p35vgg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-CP-DP-CPP-0451",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — double-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a double-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-CP-DP-CPP-0451).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=jMlVel_D1TkNttPWy_xsdg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-CP-DP-CPP-0457",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — double-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a double-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-CP-DP-CPP-0457).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=0ByiQBUrJdYJKlIQt19WOw",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-CP-DP-CPP-0502",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — double-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a double-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-CP-DP-CPP-0502).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=DrXPSNN6KWyyuhJVpXocIA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-CP-DP-MLC-0456",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe (multi-layer composite) — double-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe (multi-layer composite)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe (multi-layer composite) in a double-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-CP-DP-MLC-0456).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=PoaVjhxAZJjSgCfOj5IsAQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-CP-DP-MLC-0505",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe (multi-layer composite) — double-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe (multi-layer composite)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe (multi-layer composite) in a double-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-CP-DP-MLC-0505).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=MHuIYgwfzDy4da0PI7NBlg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-CP-DP-CPP-0413",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — double-skin flexible wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a double-skin flexible wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-CP-DP-CPP-0413).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=YK2VuX313N-uqveuxd2Q3g",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-BS-SB-0146",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — double-skin flexible wall, blank seal / head of wall (single batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Blank seal (no penetration) in a double-skin flexible wall, blank seal / head of wall, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-BS-SB-0146).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=jBqJTBogzh4pmTpMkZBaMQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-BS-DB-0160",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — double-skin flexible wall, blank seal / head of wall (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Blank seal (no penetration) in a double-skin flexible wall, blank seal / head of wall, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-BS-DB-0160).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=ZtZnJcgxkbgE9V1SJKFXwQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-BS-P-0180",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — double-skin flexible wall, blank seal / head of wall (pipe closure)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Blank seal (no penetration) in a double-skin flexible wall, blank seal / head of wall, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-BS-P-0180).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=Kd65Qtkp4WItCgFNKQtPNg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-BS-DB-0162",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — double-skin flexible wall, blank seal / head of wall (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Blank seal (no penetration) in a double-skin flexible wall, blank seal / head of wall, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-BS-DB-0162).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=0Ip_rfRDn7xtEkdpsB4Pdg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-BS-DB-0195",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — double-skin flexible wall, blank seal / head of wall (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Blank seal (no penetration) in a double-skin flexible wall, blank seal / head of wall, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-BS-DB-0195).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=pIgHb8jr7OkbUq-bNmwoVw",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-BS-P-0181",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — double-skin flexible wall, blank seal / head of wall (pipe closure)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Blank seal (no penetration) in a double-skin flexible wall, blank seal / head of wall, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-BS-P-0181).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=BAbMRBZB92R4RvBtcvZSEw",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-BS-DB-0161",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — double-skin flexible wall, blank seal / head of wall (double batt)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Blank seal (no penetration) in a double-skin flexible wall, blank seal / head of wall, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-BS-DB-0161).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=Bh7SwaSZridmiZ5biXzN1g",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RW-CP-DP-CAB-0303",
+      "manufacturer": "Rockwool",
+      "name": "Cables & cable tray — rigid wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
       "substrate": [
         "Rigid wall"
       ],
@@ -23971,98 +25579,28 @@
       "batt": [
         "Ablative coated batt"
       ],
-      "description": "Cable penetration through a masonry wall, sealed with Ablative Coated Batt and coating dressed around cable bundles.",
-      "detailUrl": "https://www.rockwool.com/uk/products-and-applications/firestop-solutions/",
+      "description": "Cables & cable tray in a rigid wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-RW-CP-DP-CAB-0303).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=uT2S8Gj_R_RKEtJcN3bmqw",
       "relatedLinks": [
         {
-          "label": "ACB installation guide",
-          "url": "https://www.rockwool.com/uk/"
-        },
-        {
-          "label": "Test evidence / classification",
-          "url": "https://www.rockwool.com/uk/"
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
         }
       ],
-      "linkStatus": "unverified",
+      "linkStatus": "extracted",
       "lastChecked": null,
-      "samplePlaceholder": true
+      "samplePlaceholder": false
     },
     {
-      "id": "RW-005",
+      "id": "RW-RWFP-RW-CP-DP-CAB-0402",
       "manufacturer": "Rockwool",
-      "name": "Blank seal through rigid floor — Coated batt",
-      "product": "Ablative Coated Batt (ACB)",
-      "substrate": [
-        "Rigid floor"
-      ],
-      "penetration": [
-        "Blank seal (no penetration)"
-      ],
-      "seal": [
-        "Coated batt"
-      ],
-      "batt": [
-        "Ablative coated batt"
-      ],
-      "description": "A blank (unpenetrated) opening in a concrete floor sealed with Ablative Coated Batt as a future-service provision.",
-      "detailUrl": "https://www.rockwool.com/uk/products-and-applications/firestop-solutions/",
-      "relatedLinks": [
-        {
-          "label": "ACB installation guide",
-          "url": "https://www.rockwool.com/uk/"
-        },
-        {
-          "label": "Test evidence / classification",
-          "url": "https://www.rockwool.com/uk/"
-        }
-      ],
-      "linkStatus": "unverified",
-      "lastChecked": null,
-      "samplePlaceholder": true
-    },
-    {
-      "id": "NF-001",
-      "manufacturer": "Nullifire",
-      "name": "Single metallic pipe through flexible wall — Acoustic sealant",
-      "product": "FS702 Intumescent Acoustic Sealant",
-      "substrate": [
-        "Flexible wall"
-      ],
-      "penetration": [
-        "Single metallic pipe"
-      ],
-      "seal": [
-        "Intumescent sealant"
-      ],
-      "batt": [
-        "N/A"
-      ],
-      "description": "A single metallic pipe through a plasterboard partition sealed with FS702 intumescent acoustic sealant to both faces.",
-      "detailUrl": "https://www.nullifire.com/en-gb/",
-      "relatedLinks": [
-        {
-          "label": "Product data sheet",
-          "url": "https://www.nullifire.com/en-gb/"
-        },
-        {
-          "label": "Test evidence / classification",
-          "url": "https://www.nullifire.com/en-gb/"
-        }
-      ],
-      "linkStatus": "unverified",
-      "lastChecked": null,
-      "samplePlaceholder": true
-    },
-    {
-      "id": "NF-002",
-      "manufacturer": "Nullifire",
-      "name": "Multiple mixed services through rigid wall — Coated batt",
-      "product": "FB750 Coated Batt",
+      "name": "Cables & cable tray — rigid wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
       "substrate": [
         "Rigid wall"
       ],
       "penetration": [
-        "Multiple pipes / mixed services"
+        "Cables & cable tray"
       ],
       "seal": [
         "Coated batt"
@@ -24070,65 +25608,173 @@
       "batt": [
         "Ablative coated batt"
       ],
-      "description": "Mixed services through a masonry wall sealed with FB750 coated batt and intumescent sealant around individual penetrants.",
-      "detailUrl": "https://www.nullifire.com/en-gb/",
+      "description": "Cables & cable tray in a rigid wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-RW-CP-DP-CAB-0402).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=t8W-x5myw8NdgPu4VU1Abg",
       "relatedLinks": [
         {
-          "label": "Batt installation guide",
-          "url": "https://www.nullifire.com/en-gb/"
-        },
-        {
-          "label": "Test evidence / classification",
-          "url": "https://www.nullifire.com/en-gb/"
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
         }
       ],
-      "linkStatus": "unverified",
+      "linkStatus": "extracted",
       "lastChecked": null,
-      "samplePlaceholder": true
+      "samplePlaceholder": false
     },
     {
-      "id": "NF-003",
-      "manufacturer": "Nullifire",
-      "name": "Single plastic pipe through rigid floor — Pipe collar",
-      "product": "FP200 Pipe Collar",
+      "id": "RW-RWFP-RW-CP-DP-CPP-0407",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — rigid wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
       "substrate": [
-        "Rigid floor"
+        "Rigid wall"
       ],
       "penetration": [
-        "Single plastic pipe"
+        "Plastic pipe"
       ],
       "seal": [
-        "Pipe collar"
+        "Coated batt"
       ],
       "batt": [
-        "N/A"
+        "Ablative coated batt"
       ],
-      "description": "A plastic pipe through a concrete floor closed off on collapse by an FP200 intumescent pipe collar under the slab.",
-      "detailUrl": "https://www.nullifire.com/en-gb/",
+      "description": "Plastic pipe in a rigid wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-RW-CP-DP-CPP-0407).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=1-kfa45DU5E1-Fv-iErRzg",
       "relatedLinks": [
         {
-          "label": "Product data sheet",
-          "url": "https://www.nullifire.com/en-gb/"
-        },
-        {
-          "label": "Pipe compatibility chart",
-          "url": "https://www.nullifire.com/en-gb/"
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
         }
       ],
-      "linkStatus": "unverified",
+      "linkStatus": "extracted",
       "lastChecked": null,
-      "samplePlaceholder": true
+      "samplePlaceholder": false
     },
     {
-      "id": "NF-004",
-      "manufacturer": "Nullifire",
-      "name": "Services through rigid floor — Mortar",
-      "product": "FS709 Firestop Mortar",
+      "id": "RW-RWFP-RW-CP-DP-CPP-0452",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — rigid wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Rigid wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a rigid wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-RW-CP-DP-CPP-0452).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=xS-lAD-X7HG_emqmqu990A",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RW-CP-DP-CPP-0501",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — rigid wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Rigid wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a rigid wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-RW-CP-DP-CPP-0501).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=mXbgXgtYLBnoKxWnC17v4g",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RW-CP-DP-MLC-0506",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe (multi-layer composite) — rigid wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Rigid wall"
+      ],
+      "penetration": [
+        "Plastic pipe (multi-layer composite)"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe (multi-layer composite) in a rigid wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-RW-CP-DP-MLC-0506).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=oHoiueGd4Z2NOGNOYLySug",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RW-CP-DP-CPP-0414",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — rigid wall, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Rigid wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a rigid wall, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-RW-CP-DP-CPP-0414).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=Fxdh2EVEeTlHUabK_0yS6A",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-PA-COM-CAB-0008-to-0010",
+      "manufacturer": "Rockwool",
+      "name": "Cables & cable tray — rigid floor, penetration aperture",
+      "product": "ROCKWOOL FirePro Compound",
       "substrate": [
         "Rigid floor"
       ],
       "penetration": [
-        "Multiple pipes / mixed services"
+        "Cables & cable tray"
       ],
       "seal": [
         "Mortar / compound"
@@ -24136,27 +25782,516 @@
       "batt": [
         "N/A"
       ],
-      "description": "Services through a concrete floor opening sealed with FS709 firestop mortar cast around the penetrants.",
-      "detailUrl": "https://www.nullifire.com/en-gb/",
+      "description": "Cables & cable tray in a rigid floor, penetration aperture, firestopped with ROCKWOOL FirePro Compound. ROCKWOOL FirePro standard detail (ref RWFP-RF-PA-COM-CAB-0008 to 0010).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=VaMIEkH7TLSun3OMohsxkg",
       "relatedLinks": [
         {
-          "label": "Product data sheet",
-          "url": "https://www.nullifire.com/en-gb/"
-        },
-        {
-          "label": "Test evidence / classification",
-          "url": "https://www.nullifire.com/en-gb/"
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
         }
       ],
-      "linkStatus": "unverified",
+      "linkStatus": "extracted",
       "lastChecked": null,
-      "samplePlaceholder": true
+      "samplePlaceholder": false
     },
     {
-      "id": "NF-005",
-      "manufacturer": "Nullifire",
-      "name": "Linear gap / joint — Acoustic sealant",
-      "product": "FS702 Intumescent Acoustic Sealant",
+      "id": "RW-RWFP-RF-PA-COM-BUS-0018",
+      "manufacturer": "Rockwool",
+      "name": "Busbar — rigid floor, penetration aperture",
+      "product": "ROCKWOOL FirePro Compound",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Busbar"
+      ],
+      "seal": [
+        "Mortar / compound"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Busbar in a rigid floor, penetration aperture, firestopped with ROCKWOOL FirePro Compound. ROCKWOOL FirePro standard detail (ref RWFP-RF-PA-COM-BUS-0018).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=FPynuwUKi9125Z128EboFg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-PA-COM-NCP-0011-to-0016",
+      "manufacturer": "Rockwool",
+      "name": "Metal pipe — rigid floor, penetration aperture",
+      "product": "ROCKWOOL FirePro Compound",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Metal pipe"
+      ],
+      "seal": [
+        "Mortar / compound"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Metal pipe in a rigid floor, penetration aperture, firestopped with ROCKWOOL FirePro Compound. ROCKWOOL FirePro standard detail (ref RWFP-RF-PA-COM-NCP-0011 to 0016).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=_sL12niKepgsrEL-4N2Ixg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-PA-COM-CPP-0019-to-0021",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — rigid floor, penetration aperture",
+      "product": "ROCKWOOL FirePro Compound",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Mortar / compound"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Plastic pipe in a rigid floor, penetration aperture, firestopped with ROCKWOOL FirePro Compound. ROCKWOOL FirePro standard detail (ref RWFP-RF-PA-COM-CPP-0019 to 0021).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=9AKxPp6zSF_0hH9ILXwU9Q",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-PA-COM-STC-0017",
+      "manufacturer": "Rockwool",
+      "name": "Structural member — rigid floor, penetration aperture",
+      "product": "ROCKWOOL FirePro Compound",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Structural member"
+      ],
+      "seal": [
+        "Mortar / compound"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Structural member in a rigid floor, penetration aperture, firestopped with ROCKWOOL FirePro Compound. ROCKWOOL FirePro standard detail (ref RWFP-RF-PA-COM-STC-0017).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=gjFOeEqELmMSILGLS-nKmQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-CP-DP-CAB-0304-to-0305",
+      "manufacturer": "Rockwool",
+      "name": "Cables & cable tray — rigid floor, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cables & cable tray in a rigid floor, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-RF-CP-DP-CAB-0304 to 0305).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=oW8h7hvUdBYrxlCyFRiGXw",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-CP-DP-CAB-0408-to-0409",
+      "manufacturer": "Rockwool",
+      "name": "Cables & cable tray — rigid floor, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cables & cable tray in a rigid floor, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-RF-CP-DP-CAB-0408 to 0409).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=VlRAMFo80HzcQN4UVL_jQQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-CP-DP-CPP-0410",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — rigid floor, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a rigid floor, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-RF-CP-DP-CPP-0410).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=XkNz4M0-ECOQgjzdUqTJpw",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-CP-DP-CPP-0453-to-0454",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — rigid floor, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a rigid floor, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-RF-CP-DP-CPP-0453 to 0454).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=qGnWQe8n-7tV6P2Ly-T7wA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-CP-DP-CPP-0503",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — rigid floor, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a rigid floor, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-RF-CP-DP-CPP-0503).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=h1oclU90oTmAIe7nGnUo4g",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-CP-DP-CPP-0415",
+      "manufacturer": "Rockwool",
+      "name": "Plastic pipe — rigid floor, cored penetration (cored)",
+      "product": "ROCKWOOL FirePro Ablative Coated Batt",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Plastic pipe in a rigid floor, cored penetration, firestopped with ROCKWOOL FirePro Ablative Coated Batt. ROCKWOOL FirePro standard detail (ref RWFP-RF-CP-DP-CPP-0415).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=fM1GhiDcjob64EhsqWLLlA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-BS-COM-0001",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — rigid floor, blank seal / head of wall",
+      "product": "ROCKWOOL FirePro Compound",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Mortar / compound"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Blank seal (no penetration) in a rigid floor, blank seal / head of wall, firestopped with ROCKWOOL FirePro Compound. ROCKWOOL FirePro standard detail (ref RWFP-RF-BS-COM-0001).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=7R3sgrOvqoTYNlDDgnk4ww",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-BS-COM-0002",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — rigid floor, blank seal / head of wall",
+      "product": "ROCKWOOL FirePro Compound",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Mortar / compound"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Blank seal (no penetration) in a rigid floor, blank seal / head of wall, firestopped with ROCKWOOL FirePro Compound. ROCKWOOL FirePro standard detail (ref RWFP-RF-BS-COM-0002).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=nxDn5mNzQGIyyC4wS9_LsA",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-BS-COM-0003",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — rigid floor, blank seal / head of wall",
+      "product": "ROCKWOOL FirePro Compound",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Mortar / compound"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Blank seal (no penetration) in a rigid floor, blank seal / head of wall, firestopped with ROCKWOOL FirePro Compound. ROCKWOOL FirePro standard detail (ref RWFP-RF-BS-COM-0003).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=Xbs8FZojSg1Fau5y0x9jgg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-BS-COM-0004",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — rigid floor, blank seal / head of wall",
+      "product": "ROCKWOOL FirePro Compound",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Mortar / compound"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Blank seal (no penetration) in a rigid floor, blank seal / head of wall, firestopped with ROCKWOOL FirePro Compound. ROCKWOOL FirePro standard detail (ref RWFP-RF-BS-COM-0004).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=KTi_MjVGckVCyY0U6yoYnQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-BS-COM-0005",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — rigid floor, blank seal / head of wall",
+      "product": "ROCKWOOL FirePro Compound",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Mortar / compound"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Blank seal (no penetration) in a rigid floor, blank seal / head of wall, firestopped with ROCKWOOL FirePro Compound. ROCKWOOL FirePro standard detail (ref RWFP-RF-BS-COM-0005).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=D834FI0kT8xVC78FC0g27g",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-BS-COM-0006",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — rigid floor, blank seal / head of wall",
+      "product": "ROCKWOOL FirePro Compound",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Mortar / compound"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Blank seal (no penetration) in a rigid floor, blank seal / head of wall, firestopped with ROCKWOOL FirePro Compound. ROCKWOOL FirePro standard detail (ref RWFP-RF-BS-COM-0006).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=W4jV1m57g2Jw4RuEm9Kkfg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-BS-COM-0007",
+      "manufacturer": "Rockwool",
+      "name": "Blank seal (no penetration) — rigid floor, blank seal / head of wall",
+      "product": "ROCKWOOL FirePro Compound",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Mortar / compound"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Blank seal (no penetration) in a rigid floor, blank seal / head of wall, firestopped with ROCKWOOL FirePro Compound. ROCKWOOL FirePro standard detail (ref RWFP-RF-BS-COM-0007).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=vjWVrV0VpcTsef4alN93OQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RW-LJ-0350",
+      "manufacturer": "Rockwool",
+      "name": "Linear joint / gap — rigid wall, linear joint",
+      "product": "ROCKWOOL FirePro Acoustic Intumescent Sealant",
       "substrate": [
         "Rigid wall"
       ],
@@ -24169,21 +26304,485 @@
       "batt": [
         "N/A"
       ],
-      "description": "A linear gap between wall and structure sealed with FS702 intumescent acoustic sealant over backing material.",
-      "detailUrl": "https://www.nullifire.com/en-gb/",
+      "description": "Linear joint / gap in a rigid wall, linear joint, firestopped with ROCKWOOL FirePro Acoustic Intumescent Sealant. ROCKWOOL FirePro standard detail (ref RWFP-RW-LJ-0350).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=PfjMkDqwEczq3ZBBo5bdtw",
       "relatedLinks": [
         {
-          "label": "Product data sheet",
-          "url": "https://www.nullifire.com/en-gb/"
-        },
-        {
-          "label": "Movement / joint test data",
-          "url": "https://www.nullifire.com/en-gb/"
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
         }
       ],
-      "linkStatus": "unverified",
+      "linkStatus": "extracted",
       "lastChecked": null,
-      "samplePlaceholder": true
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-LJ-0353",
+      "manufacturer": "Rockwool",
+      "name": "Linear joint / gap — double-skin flexible wall, linear joint",
+      "product": "ROCKWOOL FirePro Acoustic Intumescent Sealant",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Linear joint / gap"
+      ],
+      "seal": [
+        "Acoustic/FR sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Linear joint / gap in a double-skin flexible wall, linear joint, firestopped with ROCKWOOL FirePro Acoustic Intumescent Sealant. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-LJ-0353).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=iZooPFd806txvTFc0Fb7zQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RF-LJ-0352",
+      "manufacturer": "Rockwool",
+      "name": "Linear joint / gap — rigid floor, linear joint",
+      "product": "ROCKWOOL FirePro Acoustic Intumescent Sealant",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Linear joint / gap"
+      ],
+      "seal": [
+        "Acoustic/FR sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Linear joint / gap in a rigid floor, linear joint, firestopped with ROCKWOOL FirePro Acoustic Intumescent Sealant. ROCKWOOL FirePro standard detail (ref RWFP-RF-LJ-0352).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=V1VQtO7SifWPq1b6HLt2tQ",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-RW-LJ-0351",
+      "manufacturer": "Rockwool",
+      "name": "Linear joint / gap — rigid wall, linear joint",
+      "product": "ROCKWOOL FirePro Acoustic Intumescent Sealant",
+      "substrate": [
+        "Rigid wall"
+      ],
+      "penetration": [
+        "Linear joint / gap"
+      ],
+      "seal": [
+        "Acoustic/FR sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Linear joint / gap in a rigid wall, linear joint, firestopped with ROCKWOOL FirePro Acoustic Intumescent Sealant. ROCKWOOL FirePro standard detail (ref RWFP-RW-LJ-0351).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=hOZCFR7gmal1_JniMq4LZw",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "RW-RWFP-DSFW-LJ-0354",
+      "manufacturer": "Rockwool",
+      "name": "Linear joint / gap — double-skin flexible wall, linear joint",
+      "product": "ROCKWOOL FirePro Acoustic Intumescent Sealant",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Linear joint / gap"
+      ],
+      "seal": [
+        "Acoustic/FR sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Linear joint / gap in a double-skin flexible wall, linear joint, firestopped with ROCKWOOL FirePro Acoustic Intumescent Sealant. ROCKWOOL FirePro standard detail (ref RWFP-DSFW-LJ-0354).",
+      "detailUrl": "https://brandcommunity.rockwool.com/readimage.aspx/asset.pdf?down=1&pubid=yEbv6fsIVB6aBUYpMoWrYg",
+      "relatedLinks": [
+        {
+          "label": "ROCKWOOL standard details guide",
+          "url": "https://www.rockwool.com/uk/resources-and-tools/product-documentation/specification-guides/fire-stopping-standard-details-guide/download-confirmation-fssdg/"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "NF-PS001-p1",
+      "manufacturer": "Nullifire",
+      "name": "Openings within blockwork/concrete wall construction.",
+      "product": "FB750 Intubatt & FS702 Intumastic",
+      "substrate": [
+        "Rigid wall"
+      ],
+      "penetration": [
+        "Various / see drawing"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Openings within blockwork/concrete wall construction.. Penetration through conceret / blockwork wall construction. Nullifire standard detail (PS-001); products: FB750 Intubatt & FS702 Intumastic.",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "relatedLinks": [
+        {
+          "label": "Nullifire download centre (all details)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "NF-PS002-p2",
+      "manufacturer": "Nullifire",
+      "name": "Openings within Dry Lined Wall Construction.",
+      "product": "FB750 Intubatt & FS702 Intumastic",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Various / see drawing"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Openings within Dry Lined Wall Construction.. Penetration through dry-lined wall construction. Nullifire standard detail (PS-002); products: FB750 Intubatt & FS702 Intumastic.",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "relatedLinks": [
+        {
+          "label": "Nullifire download centre (all details)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "NF-PS003-p3",
+      "manufacturer": "Nullifire",
+      "name": "Openings within concrete floor construction FB750 Intubatt",
+      "product": "FB750 Intubatt & FS702 Intumastic",
+      "substrate": [
+        "Rigid floor",
+        "Rigid wall"
+      ],
+      "penetration": [
+        "Various / see drawing"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Openings within concrete floor construction FB750 Intubatt. Penetration through concrete / blockwork wall construction. Nullifire standard detail (PS-003); products: FB750 Intubatt & FS702 Intumastic.",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "relatedLinks": [
+        {
+          "label": "Nullifire download centre (all details)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "NF-PS004-p4",
+      "manufacturer": "Nullifire",
+      "name": "Openings within concrete floor construction",
+      "product": "FR230 Intucompound and FI140 Shutter Slab",
+      "substrate": [
+        "Rigid floor",
+        "Rigid wall"
+      ],
+      "penetration": [
+        "Blank seal (no penetration)"
+      ],
+      "seal": [
+        "Mortar / compound"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Openings within concrete floor construction. Loadbearing blank seal to concrete floor up to 2.5kN/m2 and wall. Nullifire standard detail (PS-004); products: FR230 Intucompound and FI140 Shutter Slab.",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "relatedLinks": [
+        {
+          "label": "Nullifire download centre (all details)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "NF-PS006-p5",
+      "manufacturer": "Nullifire",
+      "name": "Linear seal to various wall and floor constructions.",
+      "product": "FS702 Intumastic and FS703 Silicone",
+      "substrate": [
+        "Rigid floor",
+        "Rigid wall"
+      ],
+      "penetration": [
+        "Linear joint / gap"
+      ],
+      "seal": [
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Linear seal to various wall and floor constructions.. Linear seals to construction interfaces. Nullifire standard detail (PS-006); products: FS702 Intumastic and FS703 Silicone.",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "relatedLinks": [
+        {
+          "label": "Nullifire download centre (all details)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "NF-PS007-p6",
+      "manufacturer": "Nullifire",
+      "name": "FP302 Intustrap to Combustible Penetration Wall & Floor",
+      "product": "FP302 Intustrap- to be read in conjunction with details PS-001 to PS-004",
+      "substrate": [
+        "Rigid floor",
+        "Rigid wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Pipe wrap"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "FP302 Intustrap to Combustible Penetration Wall & Floor. Combustible penetrations passing through varying substrates in various orientations. Nullifire standard detail (PS-007); products: FP302 Intustrap- to be read in conjunction with details PS-001 to PS-004.",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "relatedLinks": [
+        {
+          "label": "Nullifire download centre (all details)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "NF-PS007-p7",
+      "manufacturer": "Nullifire",
+      "name": "FP302 Intustrap to Insulated Non- Combsutible Penetration.",
+      "product": "FP302 Intustrap- to be read in conjunction with details PS-001 to PS-004",
+      "substrate": [
+        "Other / unspecified"
+      ],
+      "penetration": [
+        "Metal pipe"
+      ],
+      "seal": [
+        "Pipe wrap"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "FP302 Intustrap to Insulated Non- Combsutible Penetration.. Insulated non-combsutible penetrations passing through varying substrates in various orientations. Nullifire standard detail (PS-007); products: FP302 Intustrap- to be read in conjunction with details PS-001 to PS-004.",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "relatedLinks": [
+        {
+          "label": "Nullifire download centre (all details)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "NF-PS008-p8",
+      "manufacturer": "Nullifire",
+      "name": "FS709 Intumastic HP to various penetrations within plasterboard",
+      "product": "FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Various / see drawing"
+      ],
+      "seal": [
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "FS709 Intumastic HP to various penetrations within plasterboard. Annular Penetration Seals. Nullifire standard detail (PS-008); products: FS709 Intumastic HP.",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "relatedLinks": [
+        {
+          "label": "Nullifire download centre (all details)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "NF-PS008-p9",
+      "manufacturer": "Nullifire",
+      "name": "FS709 Intumastic HP to various penetrations within masonry",
+      "product": "FS709 Intumastic HP",
+      "substrate": [
+        "Rigid wall"
+      ],
+      "penetration": [
+        "Various / see drawing"
+      ],
+      "seal": [
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "FS709 Intumastic HP to various penetrations within masonry. Annular Penetration Seals. Nullifire standard detail (PS-008); products: FS709 Intumastic HP.",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "relatedLinks": [
+        {
+          "label": "Nullifire download centre (all details)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "NF-PS008-p10",
+      "manufacturer": "Nullifire",
+      "name": "FS709 Intumastic HP to various penetrations within floor",
+      "product": "FS709 Intumastic HP , FB760 Intubatt and FS702 Intumastic",
+      "substrate": [
+        "Rigid floor"
+      ],
+      "penetration": [
+        "Various / see drawing"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "FS709 Intumastic HP to various penetrations within floor. Annular Penetration Seals. Nullifire standard detail (PS-008); products: FS709 Intumastic HP , FB760 Intubatt and FS702 Intumastic.",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "relatedLinks": [
+        {
+          "label": "Nullifire download centre (all details)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "NF-PS014-p11",
+      "manufacturer": "Nullifire",
+      "name": "FB770 IntudeckTimber Floor Upgrade Installation Detail",
+      "product": "Timber Floor Upgrade Between Joists",
+      "substrate": [
+        "Timber floor"
+      ],
+      "penetration": [
+        "Other / specialist"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "FB770 IntudeckTimber Floor Upgrade Installation Detail. Nullifire standard detail (PS-014); products: Timber Floor Upgrade Between Joists.",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "relatedLinks": [
+        {
+          "label": "Nullifire download centre (all details)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
+    },
+    {
+      "id": "NF-PS010-p12",
+      "manufacturer": "Nullifire",
+      "name": "Banks of insulated plastic pipes in dry lined wall construction",
+      "product": "FB750 Intubatt, FP302 Intustrap & FS702 Intumastic",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe bundle"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Banks of insulated plastic pipes in dry lined wall construction. Banks of insulated combustible pipes through 90 minute dry lined wall construction. 100mm overall thickness. Nullifire standard detail (PS-010); products: FB750 Intubatt, FP302 Intustrap & FS702 Intumastic.",
+      "detailUrl": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1",
+      "relatedLinks": [
+        {
+          "label": "Nullifire download centre (all details)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "extracted",
+      "lastChecked": null,
+      "samplePlaceholder": false
     }
   ]
 }
