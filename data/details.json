@@ -1,8 +1,9 @@
 {
   "meta": {
-    "version": 5,
-    "note": "Quelfire (783) & Rockwool (89) deep-link to individual detail PDFs. Nullifire (12) links to the official Nullifinder selector + download centre (Nullifire does not publish per-detail links).",
-    "lastUpdated": "2026-06-16"
+    "version": 6,
+    "note": "Quelfire (783) & Rockwool (89) deep-link to individual detail PDFs. Nullifire (58): 12 standard details link to the official Nullifinder selector; 46 single-skin (12.5mm & 15mm) tested details link to per-detail PDFs hosted in-repo (assets/nullifire/single-skin/), split from the manufacturer detail packs, with Nullifinder + download centre as backups.",
+    "lastUpdated": "2026-07-14",
+    "count": 930
   },
   "details": [
     {
@@ -26807,6 +26808,1741 @@
       "linkStatus": "selector",
       "lastChecked": null,
       "samplePlaceholder": false
+    },
+    {
+      "id": "NF-FS709-DW75-SI-CP-1005-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single combustible pipe 55mm — single-skin partition (EI 30)",
+      "product": "FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Combustible Pipe. Single combustible pipe 55mm. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FS709-DW75-SI-CP-1005-2D. Products: FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FS709-DW75-SI-CP-1005-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FS709-DW75-SI-CP-1005-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FS709-DW75-SI-CP-1004-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single combustible pipe 55mm — single-skin partition (EI 30)",
+      "product": "FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Combustible Pipe. Single combustible pipe 55mm. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FS709-DW75-SI-CP-1004-2D. Products: FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FS709-DW75-SI-CP-1004-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FS709-DW75-SI-CP-1004-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FS709-DW75-SI-CP-1003-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single combustible pipe 50mm — single-skin partition (EI 30)",
+      "product": "FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Combustible Pipe. Single combustible pipe 50mm. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FS709-DW75-SI-CP-1003-2D. Products: FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FS709-DW75-SI-CP-1003-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FS709-DW75-SI-CP-1003-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FS709-DW75-SI-CP-1002-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single combustible duct 204x65mm — single-skin partition (EI 30)",
+      "product": "FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Ventilation duct"
+      ],
+      "seal": [
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Combustible Duct. Single combustible duct 204x65mm. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FS709-DW75-SI-CP-1002-2D. Products: FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FS709-DW75-SI-CP-1002-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FS709-DW75-SI-CP-1002-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FS709-DW75-SI-CP-1001-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single combustible pipe 110mm — single-skin partition (EI 30)",
+      "product": "FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Combustible Pipe. Single combustible pipe 110mm. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FS709-DW75-SI-CP-1001-2D. Products: FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FS709-DW75-SI-CP-1001-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FS709-DW75-SI-CP-1001-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FS709-DW75-SI-CP-00050-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single combustible pipe 110mm, Combustible Pipe, EI 30, Tested to EN 1366-3 — single-skin partition (EI 30)",
+      "product": "FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Combustible Pipe. Single combustible pipe 110mm, Combustible Pipe, EI 30, Tested to EN 1366-3. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FS709-DW75-SI-CP-00050-2D. Products: FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FS709-DW75-SI-CP-00050-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FS709-DW75-SI-CP-00050-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FB750-DW120-DP-SI-CA-FS702-00806-2D",
+      "manufacturer": "Nullifire",
+      "name": "Double FB750 pattress, Single cable tray (225x25mm) with cables — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS702 Intumastic",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cable tray with cables. Double FB750 pattress, Single cable tray (225x25mm) with cables. Flexible Wall 100mm single-skin partition with 12.5mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW120-DP-SI-CA-FS702-00806-2D. Products: FB750 Intubatt, FS702 Intumastic.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW120-DP-SI-CA-FS702-00806-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW120-DP-SI-CA-FS702-00806-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FB750-DW120-DP-SI-CA-FS702-00804-2D",
+      "manufacturer": "Nullifire",
+      "name": "Double FB750 pattress, Single cable bundle, Cable Bundle, EI 60, Tested to EN 1366-3 — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS702 Intumastic",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cable Bundle. Double FB750 pattress, Single cable bundle, Cable Bundle, EI 60, Tested to EN 1366-3. Flexible Wall 120mm single-skin partition with 12.5mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW120-DP-SI-CA-FS702-00804-2D. Products: FB750 Intubatt, FS702 Intumastic.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW120-DP-SI-CA-FS702-00804-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW120-DP-SI-CA-FS702-00804-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FB750-DW75-SI-INCP-FS709-994-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single non-combustible pipe 110mm, insulated with 25mm rock mineral wool — single-skin partition (EI 30)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Insulated metal pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Insulated Non-Combustible Pipe. Single FB750 compressed, Single non-combustible pipe 110mm, insulated with 25mm rock mineral wool. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FB750-DW75-SI-INCP-FS709-994-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW75-SI-INCP-FS709-994-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW75-SI-INCP-FS709-994-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FB750-DW75-SI-CP-NCP-FS709-1000-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single non-combustible pipe 63mm — single-skin partition (EI 30)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Metal pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Non-Combustible Pipe. Single FB750 compressed, Single non-combustible pipe 63mm. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FB750-DW75-SI-CP-NCP-FS709-1000-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW75-SI-CP-NCP-FS709-1000-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW75-SI-CP-NCP-FS709-1000-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FB750-DW75-SI-CP-FS719-997-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single combustible pipe 60mm — single-skin partition (EI 30)",
+      "product": "FB750 Intubatt & FS719",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Pipe. Single FB750 compressed, Single combustible pipe 60mm. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FB750-DW75-SI-CP-FS719-997-2D. Products: FB750 Intubatt, FS719.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW75-SI-CP-FS719-997-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW75-SI-CP-FS719-997-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FB750-DW75-SI-CP-FS709-999-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single combustible pipe 75mm — single-skin partition (EI 30)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Pipe. Single FB750 compressed, Single combustible pipe 75mm. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FB750-DW75-SI-CP-FS709-999-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW75-SI-CP-FS709-999-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW75-SI-CP-FS709-999-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FB750-DW75-SI-CP-FS709-998-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single combustible pipe 50mm — single-skin partition (EI 30)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Pipe. Single FB750 compressed, Single combustible pipe 50mm. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FB750-DW75-SI-CP-FS709-998-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW75-SI-CP-FS709-998-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW75-SI-CP-FS709-998-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FB750-DW75-SI-CP-FS709-996-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single combustible pipe 110mm — single-skin partition (EI 30)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Pipe. Single FB750 compressed, Single combustible pipe 110mm. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FB750-DW75-SI-CP-FS709-996-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW75-SI-CP-FS709-996-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW75-SI-CP-FS709-996-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FB750-DW75-SI-CP-FS709-995-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single combustible pipe 110mm — single-skin partition (EI 30)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Pipe. Single FB750 compressed, Single combustible pipe 110mm. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FB750-DW75-SI-CP-FS709-995-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW75-SI-CP-FS709-995-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW75-SI-CP-FS709-995-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FB750-DW75-SI-CA-FS709-993-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single combustible conduit 75mm with, cables — single-skin partition (EI 30)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables in conduit"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Conduit. Single FB750 compressed, Single combustible conduit 75mm with, cables. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FB750-DW75-SI-CA-FS709-993-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW75-SI-CA-FS709-993-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW75-SI-CA-FS709-993-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FB750-DW75-SI-CA-FS709-992-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single combustible conduit 40mm with, cables — single-skin partition (EI 30)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables in conduit"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Conduit. Single FB750 compressed, Single combustible conduit 40mm with, cables. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FB750-DW75-SI-CA-FS709-992-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW75-SI-CA-FS709-992-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW75-SI-CA-FS709-992-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FB750-DW75-SI-CA-FS709-991-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single combustible conduit 40mm with, cable, Combustible Conduit, with cable, EI 30, Tested to EN 1366-3 — single-skin partition (EI 30)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables in conduit"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Conduit. Single FB750 compressed, Single combustible conduit 40mm with, cable, Combustible Conduit, with cable, EI 30, Tested to EN 1366-3. Flexible Wall 75mm single-skin partition with 12.5mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FB750-DW75-SI-CA-FS709-991-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW75-SI-CA-FS709-991-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW75-SI-CA-FS709-991-2D",
+      "boardThickness": "12.5mm"
+    },
+    {
+      "id": "NF-FB750-DW80-DP-MU-CP-FS709-00129-2D",
+      "manufacturer": "Nullifire",
+      "name": "Double FB750 pattress, Multiple combustible pipes 28mm — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Pipes. Double FB750 pattress, Multiple combustible pipes 28mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-DP-MU-CP-FS709-00129-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-DP-MU-CP-FS709-00129-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-DP-MU-CP-FS709-00129-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-DP-SI-CA-FS709-00126-2D",
+      "manufacturer": "Nullifire",
+      "name": "Double FB750 pattress, Single cable tray with cables, (300x25x1.5mm) — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cable tray and Cables. Double FB750 pattress, Single cable tray with cables, (300x25x1.5mm). Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-DP-SI-CA-FS709-00126-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-DP-SI-CA-FS709-00126-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-DP-SI-CA-FS709-00126-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-DP-SI-CA-FS709-00128-2D",
+      "manufacturer": "Nullifire",
+      "name": "Double FB750 pattress, Single Cable bundle 100mm — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cable Bundle. Double FB750 pattress, Single Cable bundle 100mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-DP-SI-CA-FS709-00128-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-DP-SI-CA-FS709-00128-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-DP-SI-CA-FS709-00128-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-DP-SI-CP-FP170-00127-2D",
+      "manufacturer": "Nullifire",
+      "name": "Double FB750 pattress, Single combustible pipe 110mm — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FP170",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Pipe wrap"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Pipe. Double FB750 pattress, Single combustible pipe 110mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-DP-SI-CP-FP170-00127-2D. Products: FB750 Intubatt, FP170.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-DP-SI-CP-FP170-00127-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-DP-SI-CP-FP170-00127-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-DP-SI-CP-FS709-00125-2D",
+      "manufacturer": "Nullifire",
+      "name": "Double FB750 pattress, Single combustible duct 204x60mm — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Ventilation duct"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Duct. Double FB750 pattress, Single combustible duct 204x60mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-DP-SI-CP-FS709-00125-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-DP-SI-CP-FS709-00125-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-DP-SI-CP-FS709-00125-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-DP-SI-CP-FS709-00130-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Double FB750 pattress, Single combustible pipe 110mm — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Pipe. Single FB750 compressed, Double FB750 pattress, Single combustible pipe 110mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-DP-SI-CP-FS709-00130-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-DP-SI-CP-FS709-00130-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-DP-SI-CP-FS709-00130-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-DP-SI-INCP-FS709-00131-2D",
+      "manufacturer": "Nullifire",
+      "name": "Double FB750 pattress, Single non-combustible pipe 42mm, insulated with 30mm rock mineral wool — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Insulated metal pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Insulated Non-Combustible Pipe. Double FB750 pattress, Single non-combustible pipe 42mm, insulated with 30mm rock mineral wool. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-DP-SI-INCP-FS709-00131-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-DP-SI-INCP-FS709-00131-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-DP-SI-INCP-FS709-00131-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-DP-SI-INCP-FS709-00132-2D",
+      "manufacturer": "Nullifire",
+      "name": "Double FB750 pattress, Single non-combustible pipe 15mm, insulated with 20mm phenolic — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Insulated metal pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Insulated Non-Combustible Pipe. Double FB750 pattress, Single non-combustible pipe 15mm, insulated with 20mm phenolic. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-DP-SI-INCP-FS709-00132-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-DP-SI-INCP-FS709-00132-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-DP-SI-INCP-FS709-00132-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-SC-MI-CP-CA-00124-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Multiple combustible pipes 28mm, Single cable bundle 50mm — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Pipes. Single FB750 compressed, Multiple combustible pipes 28mm, Single cable bundle 50mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-SC-MI-CP-CA-00124-2D. Products: FB750 Intubatt.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-SC-MI-CP-CA-00124-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-SC-MI-CP-CA-00124-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-SC-SI-CA-FS709-00117-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single cable ladder with cable (110x30mm) — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cable tray and Cable. Single FB750 compressed, Single cable ladder with cable (110x30mm). Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-SC-SI-CA-FS709-00117-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-SC-SI-CA-FS709-00117-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-SC-SI-CA-FS709-00117-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-SC-SI-CA-FS709-00118-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single Cable bundle 100mm — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Cable Bundle. Single FB750 compressed, Single Cable bundle 100mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-SC-SI-CA-FS709-00118-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-SC-SI-CA-FS709-00118-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-SC-SI-CA-FS709-00118-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-SC-SI-CP-00119-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single combustible pipe 35mm — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Pipe. Single FB750 compressed, Single combustible pipe 35mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-SC-SI-CP-00119-2D. Products: FB750 Intubatt.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-SC-SI-CP-00119-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-SC-SI-CP-00119-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-SC-SI-CP-FS709-00114-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single combustible pipe 110mm — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Pipe. Single FB750 compressed, Single combustible pipe 110mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-SC-SI-CP-FS709-00114-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-SC-SI-CP-FS709-00114-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-SC-SI-CP-FS709-00114-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-SC-SI-CP-FS709-00115-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single combustible duct 204x60mm — single-skin partition (EI 30)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Ventilation duct"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Duct. Single FB750 compressed, Single combustible duct 204x60mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 30, tested to EN 1366-3. Nullifire tested detail FB750-DW80-SC-SI-CP-FS709-00115-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-SC-SI-CP-FS709-00115-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-SC-SI-CP-FS709-00115-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-SC-SI-CP-FS709-00116-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single combustible pipe 110mm — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Pipe. Single FB750 compressed, Single combustible pipe 110mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-SC-SI-CP-FS709-00116-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-SC-SI-CP-FS709-00116-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-SC-SI-CP-FS709-00116-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-SC-SI-CP-FS709-00121-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single combustible pipe 50mm — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Pipe. Single FB750 compressed, Single combustible pipe 50mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-SC-SI-CP-FS709-00121-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-SC-SI-CP-FS709-00121-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-SC-SI-CP-FS709-00121-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-SC-SI-CP-FS709-00122-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single combustible pipe 40mm — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Combustible Pipe. Single FB750 compressed, Single combustible pipe 40mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-SC-SI-CP-FS709-00122-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-SC-SI-CP-FS709-00122-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-SC-SI-CP-FS709-00122-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-SC-SI-CP-FS709-00123-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single non-combustible pipe 63mm — single-skin partition (EI 60)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Insulated metal pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Insulated Non-Combustible Pipe. Single FB750 compressed, Single non-combustible pipe 63mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FB750-DW80-SC-SI-CP-FS709-00123-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-SC-SI-CP-FS709-00123-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-SC-SI-CP-FS709-00123-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FB750-DW80-SC-SI-INCP-FS709-00120-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single FB750 compressed, Single non-combustible pipe 75mm, insulated with 13mm nitrile rubber — single-skin partition (E 60 - I 30)",
+      "product": "FB750 Intubatt & FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Insulated metal pipe"
+      ],
+      "seal": [
+        "Coated batt",
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "Ablative coated batt"
+      ],
+      "description": "Insulated Non-Combustible Pipe. Single FB750 compressed, Single non-combustible pipe 75mm, insulated with 13mm nitrile rubber. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating E 60 - I 30, tested to EN 1366-3. Nullifire tested detail FB750-DW80-SC-SI-INCP-FS709-00120-2D. Products: FB750 Intubatt, FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FB750-DW80-SC-SI-INCP-FS709-00120-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "E 60 - I 30",
+      "testStandard": "EN 1366-3",
+      "reference": "FB750-DW80-SC-SI-INCP-FS709-00120-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FP170-DW80-SI-CA-FS702-00107-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single cable bundle 100mm — single-skin partition (EI 60)",
+      "product": "FS702 Intumastic & FP170",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Intumescent sealant",
+        "Pipe wrap"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Cable bundle. Single cable bundle 100mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FP170-DW80-SI-CA-FS702-00107-2D. Products: FS702 Intumastic, FP170.",
+      "detailUrl": "assets/nullifire/single-skin/FP170-DW80-SI-CA-FS702-00107-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FP170-DW80-SI-CA-FS702-00107-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FP170-DW80-SI-CA-FS702-00112-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single non-combustible conduit 55mm — single-skin partition (E 60)",
+      "product": "FS702 Intumastic & FP170",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables in conduit"
+      ],
+      "seal": [
+        "Intumescent sealant",
+        "Pipe wrap"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Non-Combustible Conduit. Single non-combustible conduit 55mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating E 60, tested to EN 1366-3. Nullifire tested detail FP170-DW80-SI-CA-FS702-00112-2D. Products: FS702 Intumastic, FP170.",
+      "detailUrl": "assets/nullifire/single-skin/FP170-DW80-SI-CA-FS702-00112-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "E 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FP170-DW80-SI-CA-FS702-00112-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FP170-DW80-SI-CP-FS702-00104-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single combustible pipe 110mm, Combustible Pipe, EI 60, Tested to EN 1366-3 — single-skin partition (EI 60)",
+      "product": "FS702 Intumastic & FP170",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Intumescent sealant",
+        "Pipe wrap"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Combustible Pipe. Single combustible pipe 110mm, Combustible Pipe, EI 60, Tested to EN 1366-3. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FP170-DW80-SI-CP-FS702-00104-2D. Products: FS702 Intumastic, FP170.",
+      "detailUrl": "assets/nullifire/single-skin/FP170-DW80-SI-CP-FS702-00104-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FP170-DW80-SI-CP-FS702-00104-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FP170-DW80-SI-CP-FS702-00105-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single combustible pipe 110mm — single-skin partition (EI 60)",
+      "product": "FS702 Intumastic & FP170",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Intumescent sealant",
+        "Pipe wrap"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Combustible Pipe. Single combustible pipe 110mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FP170-DW80-SI-CP-FS702-00105-2D. Products: FS702 Intumastic, FP170.",
+      "detailUrl": "assets/nullifire/single-skin/FP170-DW80-SI-CP-FS702-00105-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FP170-DW80-SI-CP-FS702-00105-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FS702-DW80-SI-NCP-00113-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single non-combustible pipe 108mm — single-skin partition (E 60)",
+      "product": "FS702 Intumastic",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Metal pipe"
+      ],
+      "seal": [
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Non-Combustible Pipe. Single non-combustible pipe 108mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating E 60, tested to EN 1366-3. Nullifire tested detail FS702-DW80-SI-NCP-00113-2D. Products: FS702 Intumastic.",
+      "detailUrl": "assets/nullifire/single-skin/FS702-DW80-SI-NCP-00113-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "E 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FS702-DW80-SI-NCP-00113-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FS709-DW80-SI-CA-00108-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single cable — single-skin partition (EI 60)",
+      "product": "FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Cable. Single cable. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FS709-DW80-SI-CA-00108-2D. Products: FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FS709-DW80-SI-CA-00108-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FS709-DW80-SI-CA-00108-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FS709-DW80-SI-CA-00111-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single cable — single-skin partition (EI 60)",
+      "product": "FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables & cable tray"
+      ],
+      "seal": [
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Cable. Single cable. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FS709-DW80-SI-CA-00111-2D. Products: FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FS709-DW80-SI-CA-00111-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FS709-DW80-SI-CA-00111-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FS709-DW80-SI-CP-00109-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single cable in combustible conduit 28mm — single-skin partition (EI 60)",
+      "product": "FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Cables in conduit"
+      ],
+      "seal": [
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Cable in combustible conduit. Single cable in combustible conduit 28mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FS709-DW80-SI-CP-00109-2D. Products: FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FS709-DW80-SI-CP-00109-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FS709-DW80-SI-CP-00109-2D",
+      "boardThickness": "15mm"
+    },
+    {
+      "id": "NF-FS709-DW80-SI-CP-00110-2D",
+      "manufacturer": "Nullifire",
+      "name": "Single combustible pipe 28mm — single-skin partition (EI 60)",
+      "product": "FS709 Intumastic HP",
+      "substrate": [
+        "Flexible wall"
+      ],
+      "penetration": [
+        "Plastic pipe"
+      ],
+      "seal": [
+        "Intumescent sealant"
+      ],
+      "batt": [
+        "N/A"
+      ],
+      "description": "Combustible Pipe. Single combustible pipe 28mm. Flexible Wall 80mm single-skin partition with 15mm plasterboard. Fire rating EI 60, tested to EN 1366-3. Nullifire tested detail FS709-DW80-SI-CP-00110-2D. Products: FS709 Intumastic HP.",
+      "detailUrl": "assets/nullifire/single-skin/FS709-DW80-SI-CP-00110-2D.pdf",
+      "relatedLinks": [
+        {
+          "label": "Nullifinder detail selector (Nullifire)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/tools-calculators/nullifinder/"
+        },
+        {
+          "label": "Nullifire download centre (all documents)",
+          "url": "https://www.nullifire.com/en-gb/technical-hub/download-centre/?page=1"
+        }
+      ],
+      "linkStatus": "hosted-pdf",
+      "lastChecked": "2026-07-14",
+      "samplePlaceholder": false,
+      "fireRating": "EI 60",
+      "testStandard": "EN 1366-3",
+      "reference": "FS709-DW80-SI-CP-00110-2D",
+      "boardThickness": "15mm"
     }
   ]
 }
