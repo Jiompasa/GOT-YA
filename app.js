@@ -1,4 +1,4 @@
-/* GOT-YA — Firestopping Detail Finder
+/* Detail Database — Firestopping Detail Finder
  * Phase 1: client-side filter search over a local catalogue.
  * Projects + Recently-viewed are stored on the device (localStorage) for now;
  * proper login + shared storage comes in a later phase.

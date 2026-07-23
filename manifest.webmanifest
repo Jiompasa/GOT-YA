@@ -1,6 +1,6 @@
 {
-  "name": "GOT-YA — Firestopping Detail Finder",
-  "short_name": "GOT-YA",
+  "name": "Detail Database — Firestopping",
+  "short_name": "Detail DB",
   "description": "Find the right passive fire protection (firestopping) installation detail fast. Filter by substrate, penetration, seal, batt type and manufacturer.",
   "start_url": "./index.html",
   "scope": "./",

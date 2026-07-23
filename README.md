@@ -1,4 +1,4 @@
-# GOT-YA — Firestopping Detail Finder
+# Detail Database — Firestopping
 
 A simple, installable web app for finding the right passive fire protection
 (firestopping) installation detail. Filter by **Substrate**, **Penetration type**,
