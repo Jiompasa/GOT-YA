@@ -190,10 +190,6 @@ function searchView() {
     </section>`;
   }).join('');
 
-  const resultsHtml = results.length
-    ? results.map(cardHtml).join('')
-    : `<div class="empty">No details match those filters yet.<br>Try removing one.</div>`;
-
   const byMfr = (m) => state.details.filter((d) => d.manufacturer === m).length;
   const liveTotal = state.details.filter((d) => !d.samplePlaceholder).length;
 
@@ -214,7 +210,7 @@ function searchView() {
       ${active ? `<button class="clear-btn" data-action="clear">Clear filters (${active})</button>` : ''}
     </div>
     ${facetsHtml}
-    <div class="results" id="results-zone">${resultsHtml}</div>
+    <div class="results" id="results-zone">${resultsHtml(results)}</div>
   `;
 }
 
@@ -224,24 +220,46 @@ function updateResults() {
   const rc = document.getElementById('result-count');
   const rz = document.getElementById('results-zone');
   if (rc) rc.innerHTML = `<strong>${results.length}</strong> of ${state.details.length} details`;
-  if (rz) rz.innerHTML = results.length
-    ? results.map(cardHtml).join('')
-    : `<div class="empty">No details match “${escapeHtml(state.query)}”.<br>Try fewer or simpler words.</div>`;
+  if (rz) rz.innerHTML = resultsHtml(results);
   const qc = document.querySelector('.q-clear');
   if (qc) qc.style.display = state.query ? 'flex' : 'none';
 }
 
+// Group results by penetration type, each group a grid of compact cards.
+function resultsHtml(results) {
+  if (!results.length) {
+    return state.query
+      ? `<div class="empty">No details match “${escapeHtml(state.query)}”.<br>Try fewer or simpler words.</div>`
+      : `<div class="empty">No details match those filters yet.<br>Try removing one.</div>`;
+  }
+  const groups = new Map();
+  results.forEach((d) => {
+    const k = valuesOf(d, 'penetration')[0] || 'Other';
+    if (!groups.has(k)) groups.set(k, []);
+    groups.get(k).push(d);
+  });
+  const order = [...groups.keys()].sort((a, b) => groups.get(b).length - groups.get(a).length);
+  return order.map((k) => `
+    <section class="result-group">
+      <h2 class="group-head">${escapeHtml(k)}<span class="group-n">${groups.get(k).length}</span></h2>
+      <div class="card-grid">${groups.get(k).map(cardHtml).join('')}</div>
+    </section>`).join('');
+}
+
 function cardHtml(d) {
-  const tags = [...valuesOf(d, 'substrate'), ...valuesOf(d, 'penetration'), ...valuesOf(d, 'seal')]
+  const app1 = [valuesOf(d, 'substrate')[0]]
     .filter((t) => t && t !== 'N/A')
     .map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join('');
+  const comps = (d.components || []).slice(0, 3)
+    .map((t) => `<span class="tag tag-comp">${escapeHtml(t)}</span>`).join('');
+  const multi = d.multiTest ? `<span class="badge-multi" title="Covers multiple test references">Multi</span>` : '';
   return `<a class="card" href="#/detail/${encodeURIComponent(d.id)}">
     <div class="card-top">
-      <span class="badge ${escapeHtml(d.manufacturer)}">${escapeHtml(d.manufacturer)}</span>
+      <span class="badge ${escapeHtml(d.manufacturer)}">${escapeHtml(d.manufacturer)}</span>${multi}
     </div>
     <h3>${escapeHtml(d.name)}</h3>
-    <div class="product">${escapeHtml(d.product || '')}</div>
-    <div class="tags">${tags}</div>
+    ${d.code ? `<div class="code">${escapeHtml(d.code)}</div>` : ''}
+    <div class="tags">${app1}${comps}</div>
   </a>`;
 }
 
@@ -250,9 +268,15 @@ function detailView(id) {
   if (!d) { app.innerHTML = `<a class="back" href="#/search">← Back</a><div class="empty">Detail not found.</div>`; return; }
   recordRecent(d.id);
 
-  const kv = [...valuesOf(d, 'substrate'), ...valuesOf(d, 'penetration'), ...valuesOf(d, 'seal'), ...valuesOf(d, 'batt')]
+  // Application: where + what penetrates (substrate / penetration / fire rating)
+  const appTags = [...valuesOf(d, 'substrate'), ...valuesOf(d, 'penetration')]
     .filter((t) => t && t !== 'N/A')
-    .map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join('');
+    .map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join('')
+    + (d.fireRating ? `<span class="tag tag-rating">${escapeHtml(d.fireRating)}</span>` : '');
+
+  // Components: everything used in the detail itself (batt, mastic, collar, insulation…)
+  const compTags = (d.components || [])
+    .map((t) => `<span class="tag tag-comp">${escapeHtml(t)}</span>`).join('');
 
   const links = (d.relatedLinks || []).map((l) =>
     `<li><a href="${escapeHtml(l.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(l.label)} <span class="arrow">↗</span></a></li>`
@@ -261,17 +285,27 @@ function detailView(id) {
   const sampleNote = d.samplePlaceholder
     ? `<div class="note">Sample entry — this opens the manufacturer's landing page, not the exact detail PDF. The real PDF link will replace it once the details are loaded.</div>`
     : '';
+  const multiNote = d.multiTest
+    ? `<div class="note note-multi">📑 This detail covers <strong>multiple test references</strong> — check the drawing for the variant you need.</div>`
+    : '';
 
   app.innerHTML = `
     <a class="back" href="#/search">← Back to search</a>
     <div class="detail-card">
-      <span class="badge ${escapeHtml(d.manufacturer)}">${escapeHtml(d.manufacturer)}</span>
+      <div class="card-top">
+        <span class="badge ${escapeHtml(d.manufacturer)}">${escapeHtml(d.manufacturer)}</span>
+        ${d.multiTest ? `<span class="badge-multi">Multiple test details</span>` : ''}
+      </div>
       <h1>${escapeHtml(d.name)}</h1>
-      <div class="product" style="color:var(--muted);font-size:13px;margin-bottom:10px;">${escapeHtml(d.product || '')}</div>
+      ${d.code ? `<div class="code code-lg">${escapeHtml(d.code)}</div>` : ''}
       <p class="detail-desc">${escapeHtml(d.description || '')}</p>
-      <div class="kv">${kv}</div>
+      <div class="section-label">Application</div>
+      <div class="kv">${appTags}</div>
+      ${compTags ? `<div class="section-label">In this detail</div><div class="kv">${compTags}</div>` : ''}
+      ${d.product ? `<div class="section-label">Products</div><div class="detail-product">${escapeHtml(d.product)}</div>` : ''}
       <a class="btn btn-primary" href="${escapeHtml(d.detailUrl)}" target="_blank" rel="noopener noreferrer">📄 Open detail drawing</a>
       <button class="btn btn-secondary" data-action="add-to-project" data-id="${escapeHtml(d.id)}">＋ Add to a project</button>
+      ${multiNote}
       ${sampleNote}
       ${links ? `<div class="section-label">Related documents</div><ul class="link-list">${links}</ul>` : ''}
     </div>
@@ -322,7 +356,7 @@ function projectView(id) {
 function recentView() {
   const recent = store.get(RECENT_KEY, []);
   const items = recent.map((id) => state.details.find((d) => d.id === id)).filter(Boolean);
-  const rows = items.length ? items.map(cardHtml).join('') : `<div class="empty">Nothing viewed yet.<br>Open a detail and it shows up here.</div>`;
+  const rows = items.length ? `<div class="card-grid">${items.map(cardHtml).join('')}</div>` : `<div class="empty">Nothing viewed yet.<br>Open a detail and it shows up here.</div>`;
   app.innerHTML = `
     <div class="view-head"><h1>Recently viewed</h1><p>The details you looked at most recently.</p></div>
     <div class="results">${rows}</div>
