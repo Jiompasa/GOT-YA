@@ -19,6 +19,7 @@ const FACETS = [
 // ---------- App state ----------
 const state = {
   details: [],
+  query: '',
   filters: { manufacturer: new Set(), substrate: new Set(), penetration: new Set(), seal: new Set(), batt: new Set() },
   openFacets: new Set(['manufacturer']),
   loaded: false
@@ -71,6 +72,75 @@ function facetValues(key) {
   });
 }
 
+// ---------- Free-text ("say what you mean") search ----------
+// Each concept maps everyday words/phrases a user might type onto the terms
+// that actually appear in the catalogue. A query triggers a concept if any of
+// its `terms` appears; the detail must then contain one of the concept's
+// `match` strings. All triggered concepts are AND-ed together.
+const CONCEPTS = [
+  // ---- walls ----
+  { terms: ['solid wall', 'masonry', 'blockwork', 'block wall', 'concrete wall', 'brick', 'rigid wall'], match: ['rigid wall'] },
+  { terms: ['plasterboard', 'drywall', 'dry lining', 'drylining', 'stud', 'partition', 'flexible wall', 'single skin', 'single-skin'], match: ['flexible wall'] },
+  { terms: ['shaft'], match: ['shaft wall'] },
+  { terms: ['wall'], match: ['wall'] },
+  // ---- floors / ceilings ----
+  { terms: ['metal deck', 'profile deck', 'composite floor'], match: ['profile deck floor'] },
+  { terms: ['hollowcore', 'hollow core', 'hollow-core'], match: ['hollow-core floor'] },
+  { terms: ['ceiling', 'soffit'], match: ['ceiling'] },
+  { terms: ['floor', 'slab'], match: ['floor'] },
+  // ---- penetrations ----
+  { terms: ['plastic pipe', 'pvc', 'upvc', 'pex', 'abs pipe', 'combustible pipe', 'waste pipe', 'soil pipe'], match: ['plastic pipe'] },
+  { terms: ['insulated pipe', 'lagged', 'insulated metal'], match: ['insulated metal pipe'] },
+  { terms: ['metal pipe', 'copper', 'steel pipe', 'metallic pipe', 'non-combustible pipe', 'non combustible pipe'], match: ['metal pipe'] },
+  { terms: ['sprinkler', 'cpvc'], match: ['cpvc sprinkler pipe'] },
+  { terms: ['cable tray', 'cable ladder', 'cable basket', 'cable bundle', 'cables', 'cable'], match: ['cable'] },
+  { terms: ['conduit'], match: ['conduit'] },
+  { terms: ['trunking'], match: ['trunking'] },
+  { terms: ['busbar', 'bus bar'], match: ['busbar'] },
+  { terms: ['duct', 'ductwork', 'ventilation'], match: ['duct'] },
+  { terms: ['linear', 'movement joint', 'head of wall', 'deflection'], match: ['linear joint'] },
+  { terms: ['blank', 'no penetration', 'empty opening'], match: ['blank seal'] },
+  { terms: ['pipe'], match: ['pipe'] },
+  // ---- seals / products ----
+  { terms: ['coated batt', 'batt'], match: ['batt'] },
+  { terms: ['collar'], match: ['collar'] },
+  { terms: ['wrap'], match: ['wrap'] },
+  { terms: ['sealant', 'mastic'], match: ['sealant'] },
+  { terms: ['foam'], match: ['foam'] },
+  { terms: ['mortar', 'compound'], match: ['mortar'] },
+  { terms: ['putty', 'pillow', 'pad'], match: ['putty', 'pillow'] }
+];
+
+// A big lowercase string of everything searchable on a detail.
+function searchBlob(d) {
+  return [d.name, d.product, d.description,
+    ...valuesOf(d, 'substrate'), ...valuesOf(d, 'penetration'),
+    ...valuesOf(d, 'seal'), ...valuesOf(d, 'batt'),
+    d.reference, d.fireRating, d.manufacturer
+  ].filter(Boolean).join(' ').toLowerCase();
+}
+
+function textMatches(detail, rawQuery) {
+  const q = (rawQuery || '').toLowerCase().trim();
+  if (!q) return true;
+  const blob = searchBlob(detail);
+  // Every triggered concept must be satisfied.
+  for (const c of CONCEPTS) {
+    if (c.terms.some((t) => q.includes(t))) {
+      if (!c.match.some((m) => blob.includes(m))) return false;
+    }
+  }
+  // Any token containing a digit (a size like "110mm" or a code like "FS709")
+  // is treated as a hard requirement.
+  const codes = q.match(/[a-z]*\d[a-z0-9]*/g) || [];
+  for (const code of codes) {
+    if (code.length < 2) continue;
+    const num = (code.match(/\d+/) || [''])[0];
+    if (!(blob.includes(code) || (num && blob.includes(num)))) return false;
+  }
+  return true;
+}
+
 // Does a detail satisfy all active filters except (optionally) one facet?
 function matchesExcept(detail, exceptKey) {
   return FACETS.every(({ key }) => {
@@ -82,12 +152,12 @@ function matchesExcept(detail, exceptKey) {
 }
 
 function filteredDetails() {
-  return state.details.filter((d) => matchesExcept(d, null));
+  return state.details.filter((d) => matchesExcept(d, null) && textMatches(d, state.query));
 }
 
-// How many results a chip would yield, given the other active filters.
+// How many results a chip would yield, given the other active filters + query.
 function chipCount(key, value) {
-  return state.details.filter((d) => matchesExcept(d, key) && valuesOf(d, key).includes(value)).length;
+  return state.details.filter((d) => matchesExcept(d, key) && valuesOf(d, key).includes(value) && textMatches(d, state.query)).length;
 }
 
 function activeFilterCount() {
@@ -130,16 +200,35 @@ function searchView() {
   app.innerHTML = `
     <div class="view-head">
       <h1>Find a detail</h1>
-      <p>Pick any combination below — it narrows as you go.</p>
+      <p>Type what you need, or pick filters below.</p>
+    </div>
+    <div class="searchbox">
+      <span class="q-icon">🔍</span>
+      <input id="q" type="search" inputmode="search" autocomplete="off" autocorrect="off" spellcheck="false"
+        placeholder="e.g. plastic pipe through solid wall" value="${escapeHtml(state.query)}" />
+      <button class="q-clear" data-action="clear-q" style="display:${state.query ? 'flex' : 'none'}" aria-label="Clear search">✕</button>
     </div>
     <div class="sample-banner">✅ <strong>${liveTotal} live details</strong> with links to the manufacturers' own drawings — Quelfire ${byMfr('Quelfire')}, Rockwool ${byMfr('Rockwool')}, Nullifire ${byMfr('Nullifire')}.</div>
     <div class="filterbar">
-      <span class="result-count"><strong>${results.length}</strong> of ${total} details</span>
+      <span class="result-count" id="result-count"><strong>${results.length}</strong> of ${total} details</span>
       ${active ? `<button class="clear-btn" data-action="clear">Clear filters (${active})</button>` : ''}
     </div>
     ${facetsHtml}
-    <div class="results">${resultsHtml}</div>
+    <div class="results" id="results-zone">${resultsHtml}</div>
   `;
+}
+
+// Re-render only the count + result cards (keeps the search input focused while typing).
+function updateResults() {
+  const results = filteredDetails();
+  const rc = document.getElementById('result-count');
+  const rz = document.getElementById('results-zone');
+  if (rc) rc.innerHTML = `<strong>${results.length}</strong> of ${state.details.length} details`;
+  if (rz) rz.innerHTML = results.length
+    ? results.map(cardHtml).join('')
+    : `<div class="empty">No details match “${escapeHtml(state.query)}”.<br>Try fewer or simpler words.</div>`;
+  const qc = document.querySelector('.q-clear');
+  if (qc) qc.style.display = state.query ? 'flex' : 'none';
 }
 
 function cardHtml(d) {
@@ -317,6 +406,12 @@ document.addEventListener('click', (e) => {
       FACETS.forEach(({ key }) => state.filters[key].clear());
       searchView();
       break;
+    case 'clear-q':
+      state.query = '';
+      searchView();
+      const qi = document.getElementById('q');
+      if (qi) qi.focus();
+      break;
     case 'add-to-project':
       openAddToProject(t.dataset.id);
       break;
@@ -362,6 +457,14 @@ document.addEventListener('click', (e) => {
 // Close modal by tapping the backdrop
 document.addEventListener('click', (e) => {
   if (e.target.classList && e.target.classList.contains('modal-backdrop')) closeModal();
+});
+
+// Live search as you type (updates only the results, so the box keeps focus).
+document.addEventListener('input', (e) => {
+  if (e.target.id === 'q') {
+    state.query = e.target.value;
+    updateResults();
+  }
 });
 
 // Submit project name on Enter

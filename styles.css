@@ -80,6 +80,44 @@ button { font-family: inherit; cursor: pointer; -webkit-tap-highlight-color: tra
 .view-head h1 { font-size: 26px; font-weight: 800; letter-spacing: -0.4px; margin: 0 0 4px; }
 .view-head p { color: var(--muted); margin: 0; font-size: 15px; }
 
+/* ---------- Natural-language search box ---------- */
+.searchbox {
+  position: relative;
+  display: flex; align-items: center;
+  margin: 0 0 14px;
+}
+.searchbox .q-icon {
+  position: absolute; left: 14px; font-size: 16px; opacity: 0.6; pointer-events: none;
+}
+.searchbox input {
+  width: 100%;
+  font-size: 16px; /* 16px stops iOS zoom-on-focus */
+  padding: 14px 44px 14px 42px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface, #fff);
+  color: var(--text);
+  box-shadow: var(--shadow-1);
+  -webkit-appearance: none; appearance: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.searchbox input::placeholder { color: var(--muted); }
+.searchbox input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent);
+}
+.searchbox input::-webkit-search-decoration,
+.searchbox input::-webkit-search-cancel-button { -webkit-appearance: none; }
+.searchbox .q-clear {
+  position: absolute; right: 8px;
+  width: 30px; height: 30px; border: none; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--surface-soft); color: var(--muted);
+  font-size: 13px; cursor: pointer;
+}
+.searchbox .q-clear:hover { color: var(--text); }
+
 /* Status banner */
 .sample-banner {
   background: linear-gradient(180deg, #ffffff, var(--surface-soft));
