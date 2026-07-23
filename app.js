@@ -298,7 +298,6 @@ function detailView(id) {
       </div>
       <h1>${escapeHtml(d.name)}</h1>
       ${d.code ? `<div class="code code-lg">${escapeHtml(d.code)}</div>` : ''}
-      <p class="detail-desc">${escapeHtml(d.description || '')}</p>
       <div class="section-label">Application</div>
       <div class="kv">${appTags}</div>
       ${compTags ? `<div class="section-label">In this detail</div><div class="kv">${compTags}</div>` : ''}
