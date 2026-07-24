@@ -1,6 +1,6 @@
 // Detail Database service worker — enables offline use and "install to home screen".
 // Bump CACHE_VERSION whenever the app shell or data changes to force a refresh.
-const CACHE_VERSION = 'gotya-v12';
+const CACHE_VERSION = 'gotya-v13';
 const APP_SHELL = [
   './',
   './index.html',

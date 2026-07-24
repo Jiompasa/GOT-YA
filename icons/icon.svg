@@ -1,9 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <rect width="512" height="512" rx="96" fill="#0f1115"/>
-  <g>
-    <path d="M256 96c14 44-8 70-34 96-30 30-58 64-58 116a126 126 0 0 0 252 0c0-44-20-74-40-98 6 22 2 44-16 56 8-40-14-76-46-104-26-24-26-44-12-66z"
-          fill="#ff5a1f"/>
-    <path d="M256 220c8 26-4 40-18 56-16 18-30 38-30 64a64 64 0 0 0 128 0c0-30-18-52-34-72-8 14-4 28-14 38 4-22-8-42-24-58z"
-          fill="#ffc23d"/>
-  </g>
+  <defs>
+    <linearGradient id="qtl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f80e8"/>
+      <stop offset="1" stop-color="#0f3a86"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#qtl)"/>
+  <text x="256" y="272" text-anchor="middle" dominant-baseline="central"
+        font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="700"
+        font-size="205" letter-spacing="-6" fill="#ffffff">QTL</text>
 </svg>

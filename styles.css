@@ -5,21 +5,23 @@
    =========================================================== */
 
 :root {
-  /* Palette */
-  --bg: #eef1f6;
-  --bg-2: #e6eaf1;
+  /* Palette — QTL brand (royal blue + deep navy on cool light) */
+  --bg: #eef3fb;
+  --bg-2: #e3ecf7;
   --surface: #ffffff;
-  --surface-soft: #f6f8fb;
-  --border: #e2e7ef;
-  --border-strong: #cfd6e2;
-  --text: #161b25;
-  --text-soft: #3c4656;
-  --muted: #6b7686;
-  --accent: #ff5a1f;
-  --accent-2: #ff8a3d;
-  --accent-press: #e64a12;
-  --accent-tint: #fff1ea;
-  --accent-ring: rgba(255, 90, 31, 0.30);
+  --surface-soft: #f3f7fd;
+  --border: #dfe8f3;
+  --border-strong: #c8d6e8;
+  --text: #0e1c30;
+  --text-soft: #33455f;
+  --muted: #667689;
+  --navy: #0b2547;
+  --accent: #1a5fd0;
+  --accent-2: #2f80e8;
+  --accent-press: #0f47a8;
+  --accent-tint: #e9f1fd;
+  --accent-ring: rgba(26, 95, 208, 0.32);
+  --code: #e6551a;
   --ok: #15a36a;
   --ok-tint: #e7f7ef;
   --warn-text: #8a5a00;
@@ -30,9 +32,9 @@
   --radius: 16px;
   --radius-sm: 11px;
   --tap: 48px;
-  --shadow-1: 0 1px 2px rgba(20, 30, 50, 0.06), 0 2px 8px rgba(20, 30, 50, 0.06);
-  --shadow-2: 0 4px 12px rgba(20, 30, 50, 0.10), 0 10px 24px rgba(20, 30, 50, 0.08);
-  --shadow-accent: 0 6px 16px rgba(255, 90, 31, 0.34);
+  --shadow-1: 0 1px 2px rgba(11, 37, 71, 0.06), 0 2px 8px rgba(11, 37, 71, 0.06);
+  --shadow-2: 0 4px 12px rgba(11, 37, 71, 0.10), 0 10px 24px rgba(11, 37, 71, 0.09);
+  --shadow-accent: 0 6px 16px rgba(26, 95, 208, 0.34);
   --ease: cubic-bezier(.2, .7, .3, 1);
 }
 
@@ -70,7 +72,7 @@ button { font-family: inherit; cursor: pointer; -webkit-tap-highlight-color: tra
   background: linear-gradient(90deg, var(--accent), var(--accent-2));
 }
 .brand { display: flex; align-items: center; gap: 9px; text-decoration: none; color: var(--text); }
-.brand-mark { display: block; filter: drop-shadow(0 2px 4px rgba(255, 90, 31, 0.35)); }
+.brand-mark { display: block; filter: drop-shadow(0 2px 4px rgba(26, 95, 208, 0.35)); }
 .brand-name { font-weight: 900; letter-spacing: .5px; font-size: 19px; }
 .brand-sub { color: var(--muted); font-size: 12.5px; font-weight: 500; }
 
@@ -237,7 +239,7 @@ button { font-family: inherit; cursor: pointer; -webkit-tap-highlight-color: tra
 /* Detail code / reference number — replaces the old greyed product line */
 .code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 12px; font-weight: 700; color: var(--accent-press, #1d4ed8);
+  font-size: 12px; font-weight: 700; color: var(--code);
   letter-spacing: .2px; margin: 5px 0 2px; word-break: break-all;
 }
 .code-lg { font-size: 14px; margin: 4px 0 10px; }
@@ -257,6 +259,9 @@ button { font-family: inherit; cursor: pointer; -webkit-tap-highlight-color: tra
 .tag-thk { background: #f1ecff; color: #5b34c9; border-color: #ddd2fb; font-weight: 700; }
 .detail-product { color: var(--text-soft); font-size: 14px; line-height: 1.5; }
 .note-multi { background: #fff8ec; border-color: #f3d9a8; color: #7a4d00; }
+/* Related / similar details section at the bottom of a detail */
+.related-block { margin-top: 20px; }
+.related-block .section-label { margin-top: 0; }
 /* Card code sits on its own line above the title, so every card's code lines up */
 .card .code { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 0 0 6px; }
 
@@ -421,7 +426,7 @@ button { font-family: inherit; cursor: pointer; -webkit-tap-highlight-color: tra
   .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-2); border-color: var(--border-strong); }
   .card:hover::before { opacity: 1; }
   .card:hover h3 { color: var(--accent-press); }
-  .btn-primary:hover { filter: brightness(1.06); transform: translateY(-2px); box-shadow: 0 10px 24px rgba(255, 90, 31, 0.42); }
+  .btn-primary:hover { filter: brightness(1.06); transform: translateY(-2px); box-shadow: 0 10px 24px rgba(26, 95, 208, 0.42); }
   .btn-secondary:hover { border-color: var(--accent); color: var(--accent-press); transform: translateY(-2px); box-shadow: var(--shadow-2); }
   .link-list a:hover { border-color: var(--accent); background: var(--accent-tint); transform: translateY(-2px); box-shadow: var(--shadow-2); }
   .row:hover { transform: translateY(-2px); box-shadow: var(--shadow-2); border-color: var(--border-strong); }

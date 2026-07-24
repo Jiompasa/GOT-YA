@@ -272,6 +272,38 @@ function cardHtml(d) {
   </a>`;
 }
 
+// The "family" a code belongs to — e.g. QB-FW100-01 -> FW100, FS709-DW75-SI-CP-1005 -> DW75.
+// Details in the same family are close siblings (same substrate + thickness test series).
+function codeFamily(code) {
+  if (!code) return null;
+  const m = /(FW|RW|SW|WW|CW|CF|FL|RF|HC|DW|PD|PC|SP|PT)(\d{2,3})/i.exec(code);
+  return m ? m[0].toUpperCase() : null;
+}
+
+// Find details closest to `d`, scored by shared attributes. Used for "Related details".
+function relatedDetails(d, n = 6) {
+  const pen = valuesOf(d, 'penetration')[0];
+  const subs = new Set(valuesOf(d, 'substrate'));
+  const comps = new Set(d.components || []);
+  const fam = codeFamily(d.code);
+  const hasThk = d.thickness && d.thickness !== 'Not specified';
+  const scored = [];
+  for (const o of state.details) {
+    if (o.id === d.id) continue;
+    let s = 0;
+    if (pen && valuesOf(o, 'penetration')[0] === pen) s += 3;
+    if (valuesOf(o, 'substrate').some((v) => subs.has(v))) s += 2;
+    if (hasThk && o.thickness === d.thickness) s += 1;
+    if (fam && codeFamily(o.code) === fam) s += 4;              // same test series = very related
+    let overlap = 0; (o.components || []).forEach((c) => { if (comps.has(c)) overlap++; });
+    s += Math.min(overlap, 2);
+    if (o.manufacturer === d.manufacturer) s += 0.5;
+    if (s >= 4) scored.push([s, o]);
+  }
+  scored.sort((a, b) => b[0] - a[0]);
+  return scored.slice(0, n).map((x) => x[1]);
+}
+
 function detailView(id) {
   const d = state.details.find((x) => x.id === id);
   if (!d) { app.innerHTML = `<a class="back" href="#/search">← Back</a><div class="empty">Detail not found.</div>`; return; }
@@ -301,6 +333,14 @@ function detailView(id) {
     ? `<div class="note note-multi">📑 This detail covers <strong>multiple test references</strong> — check the drawing for the variant you need.</div>`
     : '';
 
+  const related = relatedDetails(d, 6);
+  const relatedHtml = related.length
+    ? `<div class="related-block">
+         <div class="section-label">Related &amp; similar details</div>
+         <div class="card-grid">${related.map(cardHtml).join('')}</div>
+       </div>`
+    : '';
+
   app.innerHTML = `
     <a class="back" href="#/search">← Back to search</a>
     <div class="detail-card">
@@ -320,6 +360,7 @@ function detailView(id) {
       ${sampleNote}
       ${links ? `<div class="section-label">Related documents</div><ul class="link-list">${links}</ul>` : ''}
     </div>
+    ${relatedHtml}
   `;
 }
 
