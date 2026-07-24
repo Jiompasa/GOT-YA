@@ -11,16 +11,16 @@
 const FACETS = [
   { key: 'manufacturer', label: 'Manufacturer / Brand' },
   { key: 'substrate',    label: 'Substrate' },
+  { key: 'thickness',    label: 'Substrate thickness' },
   { key: 'penetration',  label: 'Penetration type' },
-  { key: 'seal',         label: 'Seal' },
-  { key: 'batt',         label: 'Batt type' }
+  { key: 'seal',         label: 'Seal' }
 ];
 
 // ---------- App state ----------
 const state = {
   details: [],
   query: '',
-  filters: { manufacturer: new Set(), substrate: new Set(), penetration: new Set(), seal: new Set(), batt: new Set() },
+  filters: { manufacturer: new Set(), substrate: new Set(), thickness: new Set(), penetration: new Set(), seal: new Set() },
   openFacets: new Set(['manufacturer']),
   loaded: false
 };
@@ -65,9 +65,12 @@ function valuesOf(detail, key) {
 function facetValues(key) {
   const set = new Set();
   state.details.forEach((d) => valuesOf(d, key).forEach((v) => set.add(v)));
+  const last = (v) => v === 'N/A' || v === 'Not specified' || v === 'Various / see drawing';
+  const mm = (v) => { const m = /^(\d+)\s*mm$/.exec(v); return m ? +m[1] : null; };
   return [...set].sort((a, b) => {
-    if (a === 'N/A') return 1;
-    if (b === 'N/A') return -1;
+    if (last(a) !== last(b)) return last(a) ? 1 : -1;      // "Not specified" / N/A always last
+    const na = mm(a), nb = mm(b);
+    if (na != null && nb != null) return na - nb;           // thickness: numeric order
     return a.localeCompare(b);
   });
 }
@@ -98,7 +101,8 @@ const CONCEPTS = [
   { terms: ['trunking'], match: ['trunking'] },
   { terms: ['busbar', 'bus bar'], match: ['busbar'] },
   { terms: ['duct', 'ductwork', 'ventilation'], match: ['duct'] },
-  { terms: ['linear', 'movement joint', 'head of wall', 'deflection'], match: ['linear joint'] },
+  { terms: ['head of wall', 'head-of-wall', 'deflection', 'top of wall', 'top of slab'], match: ['head of wall'] },
+  { terms: ['linear', 'movement joint'], match: ['linear joint'] },
   { terms: ['blank', 'no penetration', 'empty opening'], match: ['blank seal'] },
   { terms: ['pipe'], match: ['pipe'] },
   // ---- seals / products ----
@@ -113,7 +117,7 @@ const CONCEPTS = [
 
 // A big lowercase string of everything searchable on a detail.
 function searchBlob(d) {
-  return [d.name, d.product, d.description,
+  return [d.name, d.product, d.description, d.code, d.thickness,
     ...valuesOf(d, 'substrate'), ...valuesOf(d, 'penetration'),
     ...valuesOf(d, 'seal'), ...valuesOf(d, 'batt'),
     d.reference, d.fireRating, d.manufacturer
@@ -209,7 +213,10 @@ function searchView() {
       <span class="result-count" id="result-count"><strong>${results.length}</strong> of ${total} details</span>
       ${active ? `<button class="clear-btn" data-action="clear">Clear filters (${active})</button>` : ''}
     </div>
-    ${facetsHtml}
+    <div class="filters-panel">
+      <div class="filters-head"><span class="filters-title">Filter by</span><span class="filters-hint">tap to narrow down</span></div>
+      ${facetsHtml}
+    </div>
     <div class="results" id="results-zone">${resultsHtml(results)}</div>
   `;
 }
@@ -247,19 +254,21 @@ function resultsHtml(results) {
 }
 
 function cardHtml(d) {
-  const app1 = [valuesOf(d, 'substrate')[0]]
+  const sub = [valuesOf(d, 'substrate')[0]]
     .filter((t) => t && t !== 'N/A')
     .map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join('');
-  const comps = (d.components || []).slice(0, 3)
+  const thk = (d.thickness && d.thickness !== 'Not specified')
+    ? `<span class="tag tag-thk">${escapeHtml(d.thickness)}</span>` : '';
+  const comps = (d.components || []).slice(0, 2)
     .map((t) => `<span class="tag tag-comp">${escapeHtml(t)}</span>`).join('');
   const multi = d.multiTest ? `<span class="badge-multi" title="Covers multiple test references">Multi</span>` : '';
   return `<a class="card" href="#/detail/${encodeURIComponent(d.id)}">
     <div class="card-top">
       <span class="badge ${escapeHtml(d.manufacturer)}">${escapeHtml(d.manufacturer)}</span>${multi}
     </div>
-    <h3>${escapeHtml(d.name)}</h3>
     ${d.code ? `<div class="code">${escapeHtml(d.code)}</div>` : ''}
-    <div class="tags">${app1}${comps}</div>
+    <h3>${escapeHtml(d.name)}</h3>
+    <div class="tags">${sub}${thk}${comps}</div>
   </a>`;
 }
 
@@ -268,10 +277,13 @@ function detailView(id) {
   if (!d) { app.innerHTML = `<a class="back" href="#/search">← Back</a><div class="empty">Detail not found.</div>`; return; }
   recordRecent(d.id);
 
-  // Application: where + what penetrates (substrate / penetration / fire rating)
-  const appTags = [...valuesOf(d, 'substrate'), ...valuesOf(d, 'penetration')]
+  // Application: where + what penetrates (substrate / thickness / penetration / fire rating)
+  const appTags = [...valuesOf(d, 'substrate')]
     .filter((t) => t && t !== 'N/A')
     .map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join('')
+    + ((d.thickness && d.thickness !== 'Not specified') ? `<span class="tag tag-thk">${escapeHtml(d.thickness)}</span>` : '')
+    + [...valuesOf(d, 'penetration')].filter((t) => t && t !== 'N/A')
+        .map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join('')
     + (d.fireRating ? `<span class="tag tag-rating">${escapeHtml(d.fireRating)}</span>` : '');
 
   // Components: everything used in the detail itself (batt, mastic, collar, insulation…)

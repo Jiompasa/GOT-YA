@@ -254,8 +254,35 @@ button { font-family: inherit; cursor: pointer; -webkit-tap-highlight-color: tra
 /* Component tags — what's physically in the detail (batt, mastic, collar…) */
 .tag-comp { background: #eef6ff; color: #1d4ed8; border-color: #cfe1ff; }
 .tag-rating { background: #e4f8ec; color: #137a45; border-color: #b9e8cd; font-weight: 800; }
+.tag-thk { background: #f1ecff; color: #5b34c9; border-color: #ddd2fb; font-weight: 700; }
 .detail-product { color: var(--text-soft); font-size: 14px; line-height: 1.5; }
 .note-multi { background: #fff8ec; border-color: #f3d9a8; color: #7a4d00; }
+/* Card code sits on its own line above the title, so every card's code lines up */
+.card .code { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 0 0 6px; }
+
+/* ---------- Filters panel (the main input area) ---------- */
+.filters-panel {
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 12px 6px;
+  margin-bottom: 18px;
+  box-shadow: var(--shadow-1);
+}
+.filters-head {
+  display: flex; align-items: baseline; gap: 10px; margin: 0 4px 12px;
+}
+.filters-title {
+  font-size: 17px; font-weight: 800; letter-spacing: -.2px; color: var(--text);
+}
+.filters-title::before {
+  content: "⛃"; margin-right: 7px; color: var(--accent); font-size: 15px;
+}
+.filters-hint { font-size: 12.5px; color: var(--muted); font-weight: 500; }
+/* Facets inside the panel: white cards that pop against the panel; active ones ringed */
+.filters-panel .facet { border-color: var(--border-strong); }
+.filters-panel .facet:has(.count-pill) { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset, var(--shadow-1); }
+.facet-head { font-size: 16.5px; }
 
 .empty {
   text-align: center; color: var(--muted); padding: 48px 18px; font-size: 15px;
